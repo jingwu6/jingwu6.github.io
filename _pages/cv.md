@@ -10,15 +10,15 @@ redirect_from:
 {% include base_path %}
 
 
-Here is my [CV](http://jingwu6.github.io/files/RL_CVPR_Workshop_New_.pdf)
+Here is my [CV](http://jingwu6.github.io/files/CV__Jing_Wu.pdf)
 
-Education
+<!-- Education
 ======
 * Ph.D., Mechanical Engineering, University of Illinois at Urbana-Champaign, Expected 2023
 * M.Eng., Mechanical Engineering, University of Illinois at Urbana-Champaign, November 2019
 * B.S., Mechanical Engineering, Northeastern University,  Jun 2017
 
-
+ -->
 
 <!-- Industry experience
 ======
