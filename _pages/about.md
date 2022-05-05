@@ -14,13 +14,13 @@ Research Interests
 ======
 My research interests include **machine learning**, **computer vision**, and **robotics**. In particular, I'm interested in developing semi-supervised and unsupervised algorithms to ensure efficient learning of autonomous systems and detection of agricultural patterns.
 
-<!-- Education
+Education
 ======
-Item 1 Ph.D., Mechanical Engineering, University of Illinois at Urbana-Champaign, September 2018
+* Ph.D., Mechanical Engineering, University of Illinois at Urbana-Champaign, Expected 2023
+* M.Eng., Mechanical Engineering, University of Illinois at Urbana-Champaign, November 2019
+* B.S., Mechanical Engineering, Northeastern University,  Jun 2017
 
-Item 2 M.ENG., Mechanical Engineering, University of Illinois at Urbana-Champaign, November 2019
 
-Item 3 B.S., Mechanical Engineering, Northeastern University,  Jun 2017 -->
 
 
 
