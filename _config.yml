@@ -56,13 +56,13 @@ alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
-twitter:
-  username               : &twitter
-facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+# twitter:
+#   username               : &twitter
+# facebook:
+#   username               :
+#   app_id                 :
+#   publisher              :
+# og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -81,14 +81,14 @@ analytics:
 # Site Author
 author:
   name             : "Jing Wu"
-  avatar           : "profile.png"
+  avatar           : "jingwu.jpg"
   bio              : "Ph.D. candidate at Mechanical Engineering of University of Illinois Urbana-Champaign"
   location         : "Illinois"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+#   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=yxmjOkcAAAAJ&scilu=&scisig=AMD79ooAAAAAYnPZlwbE8oSjqVT9U1fc5-9cG4xskkZz&gmla=AJsN-F4LnhGgk7SLueIzOJL4V4DfiG5rwa7Ot0cYoEU843Bt_4E_rPBYxYMLF0Bs4FY-xr5LQhGgl-cnd6PjICxY4gjDfOP3yF-ZmnGHCU1fp1NUbnhxsE4&sciund=6167931398917705760"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+#   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "https://github.com/jingwu6"
+  github           : "github.com/jingwu6"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
-  orcid            : "http://orcid.org/yourorcidurl"
+  linkedin         : "https://www.linkedin.com/in/jing-wu-uoi/"
+#   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+#   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+#   twitter          : "replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
