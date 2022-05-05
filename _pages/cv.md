@@ -9,9 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-CV
-======
-Here is my CV: <embed src="/blog/images/xxx.pdf" type="application/pdf">
+
+Here is my [CV](http://jingwu6.github.io/files/RL_CVPR_Workshop_New_.pdf)
 
 Education
 ======
