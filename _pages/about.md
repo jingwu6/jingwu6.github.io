@@ -17,7 +17,7 @@ My research interests include **machine learning**, **computer vision**, and **r
 Education
 ======
 * Ph.D., Mechanical Engineering, University of Illinois at Urbana-Champaign, Expected 2023
-* M.Eng., Mechanical Engineering, University of Illinois at Urbana-Champaign, November 2019
+* M.Eng., Mechanical Engineering, University of Illinois at Urbana-Champaign, Nov 2019
 * B.S., Mechanical Engineering, Northeastern University,  Jun 2017
 
 
