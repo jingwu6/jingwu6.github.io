@@ -16,10 +16,10 @@ Education
 * B.S., Mechanical Engineering, Northeastern University,  Jun 2017
 
 
-Industry experience
+<!-- Industry experience
 ======
 * Research Intern in Deep Learning and Computer Vision 2021
-* Research Intern in Deep Learning and Computer Vision 2022
+* Research Intern in Deep Learning and Computer Vision 2022 -->
 
 CV
 ======
