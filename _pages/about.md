@@ -8,11 +8,21 @@ redirect_from:
   - /about.html
 ---
 
-I currently am a Ph.D. candidate in the Department of Mechanical Science and Engineering at the University of Illinois at Urbana-Champaign, advised by [Prof. Naira Hovakimyan](https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/). I'm also proudly funded by Intelinair as a research assistant in machine learning under the supervision of [Jennifer Hobbs](https://scholar.google.com/citations?user=zeWhseAAAAAJ&hl=en).
+I'm currently a Ph.D. candidate in the Department of Mechanical Science and Engineering at the University of Illinois at Urbana-Champaign, advised by [Prof. Naira Hovakimyan](https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/). I'm also proudly funded by [Intelinair](https://www.intelinair.com/) as a research assistant in machine learning under the supervision of [Jennifer Hobbs](https://scholar.google.com/citations?user=zeWhseAAAAAJ&hl=en).
 
 Research Interests
 ======
 My research interests include **machine learning**, **computer vision**, and **robotics**. In particular, I am interested in developing semi-supervised and unsupervised algorithms to ensure efficient learning of autonomous systems and detection of agricultural patterns.
+
+<!-- Education
+======
+Item 1 Ph.D., Mechanical Engineering, University of Illinois at Urbana-Champaign, September 2018
+
+Item 2 M.ENG., Mechanical Engineering, University of Illinois at Urbana-Champaign, November 2019
+
+Item 3 B.S., Mechanical Engineering, Northeastern University,  Jun 2017 -->
+
+
 
 <!-- A data-driven personal website -->
 <!-- ======
