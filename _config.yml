@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Jing Wu"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Jing Wu"
 description              : &description "Ph.D. candidate at Mechanical Engineering of University of Illinois Urbana-Champaign"
