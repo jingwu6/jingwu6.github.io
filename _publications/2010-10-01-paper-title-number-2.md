@@ -2,7 +2,7 @@
 title: "Paper Title Number 2"
 collection: publications
 permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'Jing Wu, Ran Tao, Pan Zhao Nicolas F. Martin, Naira Hovakimyan'
+excerpt: '**Jing Wu**, Ran Tao, Pan Zhao Nicolas F. Martin, Naira Hovakimyan'
 date: 2010-10-01
 venue: 'Journal 1'
 paperurl: 'http://academicpages.github.io/files/paper2.pdf'
