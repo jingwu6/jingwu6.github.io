@@ -9,3 +9,4 @@ venue: 'Computer Vision and Pattern Recognition Workshops(CVPRW)'
 paperurl: 'http://jingwu6.github.io/files/RL_CVPR_Workshop_New_.pdf'
 ---
 
+xfun::embed_file("http://jingwu6.github.io/files/RL_N.pdf")
