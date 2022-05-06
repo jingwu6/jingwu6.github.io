@@ -8,7 +8,7 @@ Crop Simulations'
 Computer Vision and Pattern Recognition Workshops(CVPRW), 2022
  -->
 
-<!-- ---
+---
 title: "Optimizing Nitrogen Management with Deep Reinforcement Learning and
 Crop Simulations"
 collection: publications
@@ -23,9 +23,5 @@ This paper is about the number 1. The number 2 is left for future work.
 
 [Download paper here](http://academicpages.github.io/files/paper1.pdf)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1). -->
+Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
 
-[Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations](http://jingwu6.github.io/files/RL_CVPR_Workshop_New_.pdf)
-======
-Jing Wu, Ran Tao, Pan Zhao Nicolas F. Martin, Naira Hovakimyan \
-Computer Vision and Pattern Recognition Workshops(CVPRW), 2022
