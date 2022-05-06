@@ -4,7 +4,7 @@ Crop Simulations"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
+date: 2022-4-15
 venue: 'Journal 1'
 paperurl: 'http://academicpages.github.io/files/paper1.pdf'
 citation: 'Jing Wu, Ran Tao, Pan Zhao Nicolas F. Martin, Naira Hovakimyan. &quot;Paper Title Number 1.&quot;'
