@@ -13,4 +13,4 @@ This paper is about the number 1. The number 2 is left for future work.
 
 [Download paper here](http://jingwu6.github.io/files/RL_CVPR_Workshop_New_.pdf)
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+<!-- Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1). -->
