@@ -14,11 +14,10 @@ Research Interests
 ======
 My research interests include **machine learning**, **computer vision**, and **robotics**. In particular, I'm interested in developing semi-supervised and unsupervised algorithms to ensure efficient learning of autonomous systems and detection of agricultural patterns.
 
-Education
+News
 ======
-* Ph.D., Mechanical Engineering, University of Illinois at Urbana-Champaign, Expected 2023
-* M.Eng., Mechanical Engineering, University of Illinois at Urbana-Champaign, Nov. 2019
-* B.S., Mechanical Engineering, Northeastern University,  Jun. 2017
+Jun. 2022: I will participate and present our [paper](https://www.agriculture-vision.com/agriculture-vision-2022/program-schedule-2022) in CVPR in New Orleans.
+Jan. 2022: I will be a research intern in comupter vision and deep learning at Intelinair in the summer of 2022.
 
 
 
