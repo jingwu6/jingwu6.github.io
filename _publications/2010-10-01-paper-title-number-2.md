@@ -4,7 +4,7 @@ permalink: /publication/2010-10-01-paper-title-number-2
 date: 2022-08-15
 excerpt: '**Jing Wu**, David Pichler, Daniel Marley, Naira Hovakimyan, Jennifer Hobbs'
 venue: 'In Submission of TMLR,'
-paperurl: 'http://academicpages.github.io/files/AG+.pdf'
+paperurl: 'https://github.com/jingwu6/jingwu6.github.io/blob/master/files/AG%2B.pdf'
 ---
 
 **Abstract** \
