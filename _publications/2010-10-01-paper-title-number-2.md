@@ -3,7 +3,7 @@ title: "Extended Agriculture-Vision: An Extension of a Large Aerial Image Datase
 permalink: /publication/2010-10-01-paper-title-number-2
 date: 2022-08-15
 excerpt: '**Jing Wu**, David Pichler, Daniel Marley, Naira Hovakimyan, Jennifer Hobbs'
-venue: 'In Submission of TMLR,'
+venue: 'In Submission of TMLR'
 paperurl: 'https://jingwu6.github.io/files/AG+.pdf'
 ---
 
