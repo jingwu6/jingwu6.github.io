@@ -2,8 +2,8 @@
 title: "Momentum Contrastive Learning for Few-Shot Classification and Segmentation in Remote Sensing"
 permalink: /publication/2009-10-01-paper-title-number-1
 date: 2022-8-15
-excerpt: '**Jing Wu**, Jennifer Hobbs'
-venue: 'In Submission of AAAI,'
+excerpt: '**Jing Wu**, Naira Hovakimyan,Jennifer Hobbs'
+venue: 'In Submission of AAAI'
 paperurl: 'http://jingwu6.github.io/files/AAAI_Few_Shot.pdf'
 ---
 
