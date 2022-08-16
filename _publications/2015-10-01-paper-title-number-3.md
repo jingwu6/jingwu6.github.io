@@ -4,7 +4,7 @@ permalink: /publication/2009-10-01-paper-title-number-1
 date: 2022-8-15
 excerpt: '**Jing Wu**, Jennifer Hobbs'
 venue: 'In Submission of AAAI,'
-paperurl: 'https://github.com/jingwu6/jingwu6.github.io/files/AAAI_Few_Shot.pdf'
+paperurl: 'http://jingwu6.github.io/files/AAAI_Few_Shot.pdf'
 ---
 
 **Abstract** \
