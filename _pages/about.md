@@ -16,8 +16,9 @@ My research interests include **machine learning**, **computer vision**, and **r
 
 News
 ======
-Jun. 2022: I will participate and present our [paper](https://www.agriculture-vision.com/agriculture-vision-2022/program-schedule-2022) in CVPR in New Orleans.
-Jan. 2022: I will be a research intern in comupter vision and deep learning at Intelinair in the summer of 2022.
+**Jun. 2022**: I will participate and present our [paper](https://www.agriculture-vision.com/agriculture-vision-2022/program-schedule-2022) in CVPR in New Orleans.  
+**May. 2022**: Our paper "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations" is available on [Arxiv]([https://www.agriculture-vision.com/agriculture-vision-2022/program-schedule-2022](https://arxiv.org/pdf/2204.10394.pdf)).  
+**Jan. 2022**: I will be a research intern in comupter vision and deep learning at Intelinair in the summer of 2022.  
 
 
 
