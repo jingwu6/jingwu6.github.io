@@ -1,15 +1,11 @@
 ---
-title: "Paper Title Number 3"
-collection: publications
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+title: "Momentum Contrastive Learning for Few-Shot Classification and Segmentation in Remote Sensing"
+permalink: /publication/2009-10-01-paper-title-number-1
+date: 2022-8-15
+excerpt: '**Jing Wu**, Jennifer Hobbs'
+venue: 'In Submission of AAAI,'
+paperurl: 'https://github.com/jingwu6/jingwu6.github.io/blob/master/files/AAAI_Few_Shot.pdf'
 ---
-This paper is about the number 3. The number 4 is left for future work.
 
-[Download paper here](http://academicpages.github.io/files/paper3.pdf)
-
-Recommended citation: Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).
+**Abstract** \
+Classifying and segmenting patterns from a few examples is a key problem in remote sensing and earth observation, as acquiring large amounts of accurately labeled, and ground-truthed data is difficult. Prior works show that meta-learning, based on episodic training on query and support sets, is a promising approach. Yet, direct fine-tuning techniques have drawn scant attention. The objective of this paper is to repurpose contrastive learning as a pretraining method for few-shot learning for both classification and semantic segmentation tasks for remote sensing. We find that fine-tuning of embeddings learned from contrastive methods is crucial to the few-shot learning tasks. With only a few labeled samples, such a simple approach outperforms supervised learning methods. We evaluate our approach on two key remote sensing datasets: Agriculture-Vision and EuroSAT. Combining these contrastive methods with only a few labeled examples, our approach outperforms purely supervised training on the nearly 95,000 images in Agriculture-Vision on both classification and semantic segmentation tasks. Similarly, the proposed few-shot method achieved better results on the land-cover classification task on EuroSAT compared with supervised model training on the fully supervised dataset.
