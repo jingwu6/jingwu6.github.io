@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm currently a Ph.D. candidate in the Department of Mechanical Science and Engineering at the University of Illinois at Urbana-Champaign, advised by [Prof. Naira Hovakimyan](https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/). I'm also proudly funded by [Intelinair](https://www.intelinair.com/) as a research assistant in machine learning under the supervision of [Jennifer Hobbs](https://scholar.google.com/citations?user=zeWhseAAAAAJ&hl=en).
+I'm currently a Ph.D. candidate in the Department of Mechanical Science and Engineering at the University of Illinois at Urbana-Champaign, advised by [Prof. Naira Hovakimyan](https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/). I was funded by [Intelinair](https://www.intelinair.com/) as a research assistant in machine learning under the supervision of [Jennifer Hobbs](https://scholar.google.com/citations?user=zeWhseAAAAAJ&hl=en).
 
 Research Interests
 ======
