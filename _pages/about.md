@@ -12,7 +12,11 @@ I'm currently a Ph.D. candidate in the Department of Mechanical Science and Engi
 
 Research Interests
 ======
-My research interests include **machine learning**, **computer vision**, and **robotics**. In particular, I'm interested in developing semi-supervised and unsupervised algorithms to ensure efficient learning of autonomous systems and detection of agricultural patterns.
+My research is primarily in the field of **machine learning** and **computer vision**. In particular, I'm interested in exploring **improved representation learning** techniques to aid machines in comprehending the structure of massive amounts of unlabeled data.
+
+In industry applications, my efforts are devoted to **remote sensing**, **robotics** and **sustainable agriculture**. My philosophy towards research is centered around bringing people's life and AI technology together at scale. 
+
+Deeply motivated by the challenges associated with creating innovative technologies.
 
 News
 ======
