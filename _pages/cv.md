@@ -9,8 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-
-# Here is my [CV](http://jingwu6.github.io/files/CV__Jing_Wu.pdf)
+Here is my [CV](http://jingwu6.github.io/files/CV__Jing_W.pdf)
 
 <!-- Education
 ======
