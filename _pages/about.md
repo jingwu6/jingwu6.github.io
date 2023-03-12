@@ -23,9 +23,11 @@ News
 **March. 2023** Our paper "Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis
 " is accepted by TMLR [Arxiv](https://arxiv.org/pdf/2303.02460.pdf).
 
+**Jan. 2023** Our paper "Optimizing Crop Management with Reinforcement Learning and Imitation Learning" is accepted by AAMAS [Arxiv](https://arxiv.org/pdf/2209.09991.pdf).
+
 **Jun. 2022**: I will participate and present our [paper](https://www.agriculture-vision.com/agriculture-vision-2022/program-schedule-2022) in CVPR in New Orleans.  
 
-**May. 2022**: Our paper "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations" is accepted by AAMAS [Arxiv](https://arxiv.org/pdf/2204.10394.pdf).  
+**May. 2022**: Our paper "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations" is accepted by CVPR in AgVision [Arxiv](https://arxiv.org/pdf/2204.10394.pdf).  
 
 **Jan. 2022**: I will be a research intern in comupter vision and deep learning at Intelinair in the summer of 2022.  
 
