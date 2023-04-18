@@ -33,7 +33,7 @@ News
 
 **Jun. 2022**: I will participate and present our [paper](https://www.agriculture-vision.com/agriculture-vision-2022/program-schedule-2022) in CVPR in New Orleans.  
 
-**May. 2022**: Our paper "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations" is accepted by CVPR in AgVision [Arxiv](https://arxiv.org/pdf/2204.10394.pdf).  
+**May 2022**: Our paper "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations" is accepted by CVPR in AgVision [Arxiv](https://arxiv.org/pdf/2204.10394.pdf).  
 
 
 
