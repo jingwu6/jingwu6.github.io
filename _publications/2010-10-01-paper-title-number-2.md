@@ -1,10 +1,10 @@
 ---
 title: "Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis"
 permalink: /publication/2010-10-01-paper-title-number-2
-date: 2022-08-15
+date: 2023-03-15
 excerpt: '**Jing Wu**, David Pichler, Daniel Marley, Naira Hovakimyan, Jennifer Hobbs'
 venue: 'Transactions on Machine Learning Research(TMLR)'
-paperurl: 'https://jingwu6.github.io/files/AG+.pdf'
+paperurl: 'https://openreview.net/pdf?id=v5jwDLqfQo'
 ---
 
 **Abstract** \
