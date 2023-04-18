@@ -20,6 +20,8 @@ Deeply motivated by the challenges associated with creating innovative technolog
 
 News
 ======
+**May. 2023** I'll join Amazon as an intern of Applied Research Scientist this summer.
+
 **March. 2023** Our paper "Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis
 " is accepted by TMLR [Arxiv](https://arxiv.org/pdf/2303.02460.pdf).
 
