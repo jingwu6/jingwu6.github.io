@@ -23,9 +23,9 @@ News
 
 **May 2023** I'll join Amazon as an intern of Applied Research Scientist this summer.
 
-**April 2023** Our paper "Optimizing Crop Management with Reinforcement Learning and Imitation Learning" has been accepted by IJCAI [Paper_Link](https://arxiv.org/pdf/2209.09991.pdf).
+**April 2023** Our paper "Optimizing Crop Management with Reinforcement Learning and Imitation Learning" has been accepted by IJCAI [(Paper_Link)](https://arxiv.org/pdf/2209.09991.pdf).
 
-**Mar. 2023** Our paper "Dynamic Sparse Training for GANs" is available on [Paper_Link](https://arxiv.org/pdf/2302.14670.pdf).
+**Mar. 2023** Our paper "Dynamic Sparse Training for GANs" is available on [(Paper_Link)](https://arxiv.org/pdf/2302.14670.pdf).
 
 
 **Mar. 2023** Our paper "Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis
@@ -33,7 +33,7 @@ News
 
 **Jun. 2022**: I will participate and present our [paper](https://www.agriculture-vision.com/agriculture-vision-2022/program-schedule-2022) in CVPR in New Orleans.  
 
-**May 2022**: Our paper "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations" is accepted by CVPR in AgVision [Paper_Link](https://arxiv.org/pdf/2204.10394.pdf).  
+**May 2022**: Our paper "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations" is accepted by CVPR in AgVision [(Paper_Link)](https://arxiv.org/pdf/2204.10394.pdf).  
 
 
 
