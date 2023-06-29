@@ -22,8 +22,7 @@ redirect_from:
 ### Industry experience
 
 * Applied Research Scientist Intern, 2023, Amazon
-* Research Intern in Deep Learning and Computer Vision, 2022, Intelinair
-* Research Intern in Deep Learning and Computer Vision, 2021, Intelinair
+* Research Intern in Deep Learning and Computer Vision, 2021-2022, Intelinair
 
 ### Service
 
