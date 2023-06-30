@@ -25,7 +25,10 @@ redirect_from:
 * Research Scientist in Deep Learning and Computer Vision, 2021-2022, Intelinair
 
 ### Service
-
+* Organizer
+  
+  CVPR Workshop: Agriculture-Vision, 2023
+  
 * Conference Reviewer
 
   CVPR (Conference on Computer Vision and Pattern Recognition) 2022, 2023
