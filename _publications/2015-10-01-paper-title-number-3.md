@@ -3,13 +3,13 @@ title: "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few
 permalink: /publication/2009-10-01-paper-title-number-1
 date: 2022-8-15
 excerpt: '**Jing Wu**, Naira Hovakimyan,Jennifer Hobbs'
-venue: 'In Submission of AAAI'
-paperurl: '[http://jingwu6.github.io/files/AAAI_Few_Shot.pdf](https://arxiv.org/pdf/2307.14612.pdf)'
+venue: 'European Conference on Artificial Intelligence (ECAI)'
+paperurl: 'https://arxiv.org/pdf/2307.14612.pdf'
 ---
 
 **Abstract** \
 Classifying and segmenting patterns from a limited number of examples is a significant challenge in remote sensing and
-earth observation due to the difficulty in acquiring accurately labeled data in large quantities. Previous studies have shown that metalearning, which involves episodic training on query and support sets,
+earth observation due to the difficulty in acquiring accurately labeled data in large quantities. Previous studies have shown that meta-learning, which involves episodic training on query and support sets,
 is a promising approach. However, there has been little attention
 paid to direct fine-tuning techniques. This paper repurposes contrastive learning as a pre-training method for few-shot learning for
 classification and semantic segmentation tasks. Specifically, we introduce a generator-based contrastive learning framework (GenCo)
