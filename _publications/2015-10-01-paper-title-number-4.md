@@ -1,7 +1,7 @@
 ---
-title: "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing"
+title: "Hallucination Improves the Performance of Unsupervised Visual Representation Learning"
 permalink: /publication/2009-10-01-paper-title-number-1
-date: 2022-8-15
+date: 2023-8-1
 excerpt: '**Jing Wu**, Naira Hovakimyan,Jennifer Hobbs'
 venue: 'In Submission of AAAI'
 paperurl: '[http://jingwu6.github.io/files/AAAI_Few_Shot.pdf](https://arxiv.org/pdf/2307.14612.pdf)'
