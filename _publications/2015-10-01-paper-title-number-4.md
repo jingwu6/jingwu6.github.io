@@ -3,7 +3,7 @@ title: "Hallucination Improves the Performance of Unsupervised Visual Representa
 permalink: /publication/2009-10-01-paper-title-number-1
 date: 2023-8-1
 excerpt: '**Jing Wu**, Naira Hovakimyan,Jennifer Hobbs'
-venue: 'In Submission of AAAI'
+venue: 'International Conference on Computer Vision(ICCV)'
 paperurl: 'https://arxiv.org/pdf/2307.12168.pdf'
 ---
 
