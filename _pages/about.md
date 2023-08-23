@@ -23,7 +23,7 @@ News
 
 **July 2023** Our paper "Hallucination Improves the Performance of Contrastive Learning" has been accepted by ICCV. [(Paper Link)](https://arxiv.org/pdf/2307.12168.pdf)
 
-**July 2023** Our paper "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing" has been accepted by ECAI.[(Paper Link)](https://arxiv.org/pdf/2307.14612.pdf) 
+**July 2023** Our paper "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing" has been accepted by ECAI (**Oral**).[(Paper Link)](https://arxiv.org/pdf/2307.14612.pdf) 
 
 **May 2023** I'll join Amazon as an intern of Applied Research Scientist this summer.
 
