@@ -14,7 +14,7 @@ Research Interests
 ======
 My research is primarily in the field of **machine learning** and **computer vision**. In particular, I'm interested in exploring **improved representation learning** techniques to aid machines in comprehending the structure of massive amounts of unlabeled data.
 
-In industry applications, my efforts are devoted to **remote sensing**, **robotics** and **sustainable agriculture**. My philosophy towards research is centered around bringing people's life and AI technology together at scale. 
+In industry applications, my efforts are devoted to **remote sensing**, **robotics** and **sustainable agriculture**. My philosophy towards research is centered around bringing people's lives and AI technology together at scale. 
 
 Deeply motivated by the challenges associated with creating innovative technologies.
 
@@ -23,7 +23,7 @@ News
 
 **July 2023** Our paper "Hallucination Improves the Performance of Contrastive Learning" has been accepted by ICCV. [(Paper Link)](https://arxiv.org/pdf/2307.12168.pdf)
 
-**July 2023** Our paper "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing" has been accepted by ECAI (**Oral**).[(Paper Link)](https://arxiv.org/pdf/2307.14612.pdf) 
+**July 2023** Our paper "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing" has been accepted by ECAI (**Spotlight**).[(Paper Link)](https://arxiv.org/pdf/2307.14612.pdf) 
 
 **May 2023** I'll join Amazon as an intern of Applied Research Scientist this summer.
 
@@ -37,7 +37,7 @@ News
 
 **Jun. 2022**: I will participate and present our [paper](https://www.agriculture-vision.com/agriculture-vision-2022/program-schedule-2022) in CVPR in New Orleans.  
 
-**May 2022**: Our paper "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations" is accepted by CVPR in AgVision. [(Paper Link)](https://arxiv.org/pdf/2204.10394.pdf)
+**May 2022**: Our paper "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations" is accepted by CVPR in AgVision (**Oral**). [(Paper Link)](https://arxiv.org/pdf/2204.10394.pdf)
 
 
 
