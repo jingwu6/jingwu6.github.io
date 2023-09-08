@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I'm currently a Ph.D. candidate at the University of Illinois at Urbana-Champaign, advised by [Prof. Naira Hovakimyan](https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/). I was funded by [Intelinair](https://www.intelinair.com/) as a research scientist in machine learning under the supervision of [Jennifer Hobbs](https://scholar.google.com/citations?user=zeWhseAAAAAJ&hl=en).
+I'm currently a Ph.D. candidate at the University of Illinois at Urbana-Champaign, advised by [Prof. Naira Hovakimyan](https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/). I was funded by [Intelinair](https://www.intelinair.com/) as a research scientist in machine learning under the supervision of [Jennifer Hobbs](https://scholar.google.com/citations?user=zeWhseAAAAAJ&hl=en). I was also an intern of an applied research scientist at [Amazon](https://www.amazon.jobs/en/teams/buyer-risk-prevention). 
 
 Research Interests
 ======
-My research is primarily in the field of **machine learning** and **computer vision**. In particular, I'm interested in exploring **improved representation learning** techniques to aid machines in comprehending the structure of massive amounts of unlabeled data.
+My research is primarily in the fields of **machine learning** and **computer vision**. In particular, I'm interested in exploring **improved representation learning** techniques to aid machines in comprehending the structure of massive amounts of unlabeled data.
 
 In industry applications, my efforts are devoted to **remote sensing**, **robotics** and **sustainable agriculture**. My philosophy towards research is centered around bringing people's lives and AI technology together at scale. 
 
