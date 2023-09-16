@@ -27,7 +27,7 @@ redirect_from:
 ### Service
 * Committee
   
-  CVPR Workshop: Agriculture-Vision, 2023, 2024
+  CVPR Workshop: Agriculture-Vision 2023, 2024
   
 * Conference Reviewer
 
@@ -36,6 +36,8 @@ redirect_from:
   ECCV (European Conference on Computer Vision) 2022
 
   NeurIPS (Neural Information Processing Systems) 2022, 2023
+  
+  ICLR (International Conference on Learning Representations ) 2023
 
 * Journal Reviewer
 
