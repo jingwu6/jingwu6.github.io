@@ -20,6 +20,7 @@ Deeply motivated by the challenges associated with creating innovative technolog
 
 News
 ======
+**Sep 2023** Our paper "Balanced Training for Sparse GANs" has been accepted by NeurIPS.
 
 **July 2023** Our paper "Hallucination Improves the Performance of Contrastive Learning" has been accepted by ICCV. [(Paper Link)](https://arxiv.org/pdf/2307.12168.pdf)
 
