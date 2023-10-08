@@ -42,6 +42,6 @@ Deeply motivated by the challenges associated with creating innovative technolog
 - *"Dynamic Sparse Training for GANs"* now available on Arxiv. [(Read Paper)](https://arxiv.org/pdf/2302.14670.pdf)
 - *"Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis"* earned an acceptance by TMLR. [(Read Paper)](https://arxiv.org/pdf/2303.02460.pdf)
 
-🔗 **Jun. 2022**: Exciting times! Presenting our [research](https://www.agriculture-vision.com/agriculture-vision-2022/program-schedule-2022) at CVPR in New Orleans.
+🔗 **Jun. 2022**: Exciting time! Presenting our [research](https://www.agriculture-vision.com/agriculture-vision-2022/program-schedule-2022) at CVPR in New Orleans.
 
 🔗 **May 2022**: *"Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations"* recognized by CVPR in AgVision (**Oral Presentation**). [(Read Paper)](https://arxiv.org/pdf/2204.10394.pdf)
