@@ -12,9 +12,10 @@ redirect_from:
 
 ## 🎓 **Background**
 
-I am currently pursuing my **Ph.D.** at the [**University of Illinois at Urbana-Champaign**](https://illinois.edu/). I'm honored to be under the guidance of [**Prof. Naira Hovakimyan**](https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/). 
 
-During my academic journey, I collaborated with [**Intelinair**](https://www.intelinair.com/) as a research scientist in machine learning, mentored by [**Jennifer Hobbs**](https://scholar.google.com/citations?user=zeWhseAAAAAJ&hl=en). Additionally, I've honed my skills as an interned applied research scientist at [**Amazon**](https://www.amazon.jobs/en/teams/buyer-risk-prevention).
+Currently, I'm working towards my **Ph.D.** at [**University of Illinois at Urbana-Champaign**](https://illinois.edu/), guided by [**Prof. Naira Hovakimyan**](https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/). 
+
+I've also been a research scientist in machine learning at [**Intelinair**](https://www.intelinair.com/), mentored by [**Jennifer Hobbs**](https://scholar.google.com/citations?user=zeWhseAAAAAJ&hl=en). Additionally, I interned as an applied research scientist at [**Amazon**](https://www.amazon.jobs/en/teams/buyer-risk-prevention).
 
 ## 🔍 **Research Interests**
 
@@ -28,20 +29,26 @@ Deeply motivated by the challenges associated with creating innovative technolog
 
 ## 📰 **News & Updates**
 
-🔗 **Sep 2023**: *"Balanced Training for Sparse GANs"* accepted by NeurIPS.
+🔗 **Sep 2023**: 
+- **NeurIPS**: Accepted - "Balanced Training for Sparse GANs".
 
 🔗 **July 2023**: 
-- *"Hallucination Improves the Performance of Contrastive Learning"* accepted by ICCV. [(Read Paper)](https://arxiv.org/pdf/2307.12168.pdf)
-- *"GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing"* spotlighted at ECAI. [(Read Paper)](https://arxiv.org/pdf/2307.14612.pdf)
+- **ICCV**: Accepted - "Hallucination Improves the Performance of Contrastive Learning" [(Read Paper)](https://arxiv.org/pdf/2307.12168.pdf)
+- **ECAI**: Spotlighted - "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing" [(Read Paper)](https://arxiv.org/pdf/2307.14612.pdf)
 
-🔗 **May 2023**: Embarking on a new journey! Joining **Amazon** as an Intern Applied Research Scientist this summer.
+🔗 **May 2023**: 
+- Joining **Amazon** as an Intern Applied Research Scientist.
 
-🔗 **April 2023**: Our paper *"Optimizing Crop Management with Reinforcement Learning and Imitation Learning"* got a nod from IJCAI. [(Read Paper)](https://arxiv.org/pdf/2209.09991.pdf)
+🔗 **April 2023**: 
+- **IJCAI**: Accepted - "Optimizing Crop Management with Reinforcement Learning and Imitation Learning" [(Read Paper)](https://arxiv.org/pdf/2209.09991.pdf)
 
 🔗 **Mar. 2023**: 
-- *"Dynamic Sparse Training for GANs"* now available on Arxiv. [(Read Paper)](https://arxiv.org/pdf/2302.14670.pdf)
-- *"Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis"* earned an acceptance by TMLR. [(Read Paper)](https://arxiv.org/pdf/2303.02460.pdf)
+- **Arxiv**: Released - "Dynamic Sparse Training for GANs" [(Read Paper)](https://arxiv.org/pdf/2302.14670.pdf)
+- **TMLR**: Accepted - "Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis" [(Read Paper)](https://arxiv.org/pdf/2303.02460.pdf)
 
-🔗 **Jun. 2022**: Exciting time! Presenting our [research](https://www.agriculture-vision.com/agriculture-vision-2022/program-schedule-2022) at CVPR in New Orleans.
+🔗 **Jun. 2022**: 
+- **CVPR**: Presented our research in New Orleans.
 
-🔗 **May 2022**: *"Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations"* recognized by CVPR in AgVision (**Oral Presentation**). [(Read Paper)](https://arxiv.org/pdf/2204.10394.pdf)
+🔗 **May 2022**: 
+- **CVPR in AgVision** (Oral): Accepted - "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations" [(Read Paper)](https://arxiv.org/pdf/2204.10394.pdf)
+
