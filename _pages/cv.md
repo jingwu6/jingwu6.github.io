@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: ""
+title: "Curriculum Vitae"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -11,34 +11,27 @@ redirect_from:
 
 <!-- Here is my [CV](http://jingwu6.github.io/files/CV__Jing_W.pdf) -->
 
-### Education
+## 🎓 **Education**
  
-* Ph.D., University of Illinois at Urbana-Champaign, Expected 2024
-* M.S., University of Illinois at Urbana-Champaign, November 2019
-* B.S., Northeastern University,  Jun 2017
+- **Ph.D.** in [University of Illinois at Urbana-Champaign](https://illinois.edu/), *Expected 2024*
+- **M.S.** in [University of Illinois at Urbana-Champaign](https://illinois.edu/), *November 2019*
+- **B.S.** in [Northeastern University](https://www.northeastern.edu/), *June 2017*
 
+## 💼 **Industry Experience**
 
+- **Applied Research Scientist Intern**, Amazon, *2023*
+- **Research Scientist in Deep Learning and Computer Vision**, Intelinair, *2021-2022*
 
-### Industry experience
+## 🤝 **Service**
 
-* Applied Research Scientist Intern, 2023, Amazon
-* Research Scientist in Deep Learning and Computer Vision, 2021-2022, Intelinair
+### **Committee**
+- CVPR Workshop: [Agriculture-Vision](https://www.agriculture-vision.com/) *2023, 2024*
 
-### Service
-* Committee
-  
-  CVPR Workshop: Agriculture-Vision 2023, 2024
-  
-* Conference Reviewer
+### **Conference Reviewer**
+- [CVPR](https://www.thecvf.com/) (Conference on Computer Vision and Pattern Recognition), *2022, 2023*
+- [ECCV](https://eccv2022.eu/) (European Conference on Computer Vision), *2022*
+- [NeurIPS](https://neurips.cc/) (Neural Information Processing Systems), *2022, 2023*
+- [ICLR](https://iclr.cc/) (International Conference on Learning Representations), *2023*
 
-  CVPR (Conference on Computer Vision and Pattern Recognition) 2022, 2023
-
-  ECCV (European Conference on Computer Vision) 2022
-
-  NeurIPS (Neural Information Processing Systems) 2022, 2023
-  
-  ICLR (International Conference on Learning Representations ) 2023
-
-* Journal Reviewer
-
-  Computers and Electronics in Agriculture 2022
+### **Journal Reviewer**
+- Computers and Electronics in Agriculture, *2022*
