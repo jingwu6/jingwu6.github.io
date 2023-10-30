@@ -36,7 +36,7 @@ Deeply motivated by the challenges associated with creating innovative technolog
 
 - **July 2023**: 
   - Our paper, "Hallucination Improves the Performance of Contrastive Learning," got accepted at **ICCV**. [Read the paper here](https://arxiv.org/pdf/2307.12168.pdf).
-  - Our work "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing" received the spotlight at **ECAI**. [Read the paper here](https://arxiv.org/pdf/2307.14612.pdf).
+  - Our work "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing" received the **spotlight** at **ECAI**. [Read the paper here](https://arxiv.org/pdf/2307.14612.pdf).
 
 - **May 2023**: 
   - I'm joining **Amazon** as an Intern Applied Research Scientist.
@@ -45,12 +45,12 @@ Deeply motivated by the challenges associated with creating innovative technolog
   - Our research on "Optimizing Crop Management with Reinforcement Learning and Imitation Learning" has been accepted at **IJCAI**. [Read the paper here](https://arxiv.org/pdf/2209.09991.pdf).
 
 - **March 2023**: 
-  - New paper on **Arxiv** titled "Dynamic Sparse Training for GANs". [Check it out here](https://arxiv.org/pdf/2302.14670.pdf).
+  - New paper on **Arxiv** titled "Dynamic Sparse Training for GANs". [Read the paper here](https://arxiv.org/pdf/2302.14670.pdf).
   - Our work "Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis" got accepted at **TMLR**. [Read the paper here](https://arxiv.org/pdf/2303.02460.pdf).
 
 - **June 2022**: 
   - Presented our research at **CVPR** in New Orleans.
 
 - **May 2022**: 
-  - Our paper, "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations", was accepted for an oral presentation at **CVPR in AgVision**. [Read the paper here](https://arxiv.org/pdf/2204.10394.pdf).
+  - Our paper, "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations", was accepted for an **oral** presentation at **CVPR in AgVision**. [Read the paper here](https://arxiv.org/pdf/2204.10394.pdf).
 
