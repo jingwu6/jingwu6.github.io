@@ -28,27 +28,29 @@ Deeply motivated by the challenges associated with creating innovative technolog
 
 
 ## 📰 **News & Updates**
+- **Oct 2023**:
+  - Our work on "ReConTab: Regularized Contrastive Representation Learning for Tabular Data" has been accepted at **NeurIPS** workshop.
 
-🔗 **Sep 2023**: 
-- **NeurIPS**: Accepted - "Balanced Training for Sparse GANs".
+- **September 2023**:
+  - Our paper titled "Balanced Training for Sparse GANs" has been accepted at **NeurIPS**.
 
-🔗 **July 2023**: 
-- **ICCV**: Accepted - "Hallucination Improves the Performance of Contrastive Learning" [(Read Paper)](https://arxiv.org/pdf/2307.12168.pdf)
-- **ECAI**: Spotlighted - "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing" [(Read Paper)](https://arxiv.org/pdf/2307.14612.pdf)
+- **July 2023**: 
+  - Our paper, "Hallucination Improves the Performance of Contrastive Learning," got accepted at **ICCV**. [Read the paper here](https://arxiv.org/pdf/2307.12168.pdf).
+  - Our work "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing" received the spotlight at **ECAI**. [Read the paper here](https://arxiv.org/pdf/2307.14612.pdf).
 
-🔗 **May 2023**: 
-- Joining **Amazon** as an Intern Applied Research Scientist.
+- **May 2023**: 
+  - I'm joining **Amazon** as an Intern Applied Research Scientist.
 
-🔗 **April 2023**: 
-- **IJCAI**: Accepted - "Optimizing Crop Management with Reinforcement Learning and Imitation Learning" [(Read Paper)](https://arxiv.org/pdf/2209.09991.pdf)
+- **April 2023**: 
+  - Our research on "Optimizing Crop Management with Reinforcement Learning and Imitation Learning" has been accepted at **IJCAI**. [Read the paper here](https://arxiv.org/pdf/2209.09991.pdf).
 
-🔗 **Mar. 2023**: 
-- **Arxiv**: Released - "Dynamic Sparse Training for GANs" [(Read Paper)](https://arxiv.org/pdf/2302.14670.pdf)
-- **TMLR**: Accepted - "Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis" [(Read Paper)](https://arxiv.org/pdf/2303.02460.pdf)
+- **March 2023**: 
+  - New paper on **Arxiv** titled "Dynamic Sparse Training for GANs". [Check it out here](https://arxiv.org/pdf/2302.14670.pdf).
+  - Our work "Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis" got accepted at **TMLR**. [Read the paper here](https://arxiv.org/pdf/2303.02460.pdf).
 
-🔗 **Jun. 2022**: 
-- **CVPR**: Presented our research in New Orleans.
+- **June 2022**: 
+  - Presented our research at **CVPR** in New Orleans.
 
-🔗 **May 2022**: 
-- **CVPR in AgVision** (Oral): Accepted - "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations" [(Read Paper)](https://arxiv.org/pdf/2204.10394.pdf)
+- **May 2022**: 
+  - Our paper, "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations", was accepted for an oral presentation at **CVPR in AgVision**. [Read the paper here](https://arxiv.org/pdf/2204.10394.pdf).
 
