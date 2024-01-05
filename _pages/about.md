@@ -28,6 +28,10 @@ Deeply motivated by the challenges associated with creating innovative technolog
 
 
 ## 📰 **News & Updates**
+
+- **Jan 2024**:
+  - Our paper, "SwitchTab: Switched Autoencoders Are Effective Tabular Learners" has been accepted at **AAAI**.
+
 - **Oct 2023**:
   - Our work on "ReConTab: Regularized Contrastive Representation Learning for Tabular Data" has been accepted at **NeurIPS** workshop.
 
