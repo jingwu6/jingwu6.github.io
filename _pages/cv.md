@@ -32,6 +32,8 @@ redirect_from:
 - [ECCV](https://eccv2022.eu/) (European Conference on Computer Vision), *2022*
 - [NeurIPS](https://neurips.cc/) (Neural Information Processing Systems), *2022, 2023*
 - [ICLR](https://iclr.cc/) (International Conference on Learning Representations), *2023*
+- [ICML](https://icml.cc/)(International Conference on Machine Learning ) *2023*
 
 ### **Journal Reviewer**
-- Computers and Electronics in Agriculture, *2022*
+- Data-centric Machine Learning Research (DMLR)
+- Computers and Electronics in Agriculture
