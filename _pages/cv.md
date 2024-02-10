@@ -28,8 +28,8 @@ redirect_from:
 - CVPR Workshop: [Agriculture-Vision](https://www.agriculture-vision.com/) *2023, 2024*
 
 ### **Conference Reviewer**
-- [CVPR](https://www.thecvf.com/) (Conference on Computer Vision and Pattern Recognition), *2022, 2023*
-- [ECCV](https://eccv2022.eu/) (European Conference on Computer Vision), *2022*
+- [CVPR](https://www.thecvf.com/) (Conference on Computer Vision and Pattern Recognition), *2022, 2023, 2024*
+- [ECCV](https://eccv2022.eu/) (European Conference on Computer Vision), *2022, 2024*
 - [NeurIPS](https://neurips.cc/) (Neural Information Processing Systems), *2022, 2023*
 - [ICLR](https://iclr.cc/) (International Conference on Learning Representations), *2023*
 - [ICML](https://icml.cc/)(International Conference on Machine Learning ) *2023*
