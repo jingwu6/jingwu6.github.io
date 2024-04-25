@@ -30,8 +30,8 @@ Deeply motivated by the challenges associated with creating innovative technolog
 ## 📰 **News & Updates**
 
 - **April 2024**:
-  - Our paper, "The new agronomists: Language models are experts in crop management" has been accepted at **CVPRW**.
-  - Our paper, "Residual-based Language Models are Free Boosters for Biomedical Imaging" has been accepted at **CVPRW**.
+  - Our paper, "The new agronomists: Language models are experts in crop management" has been accepted at **CVPR in AgVision**.
+  - Our paper, "Residual-based Language Models are Free Boosters for Biomedical Imaging" has been accepted at **CVPR in AI-MIA**.
 
 - **Jan 2024**:
   - Our paper, "SwitchTab: Switched Autoencoders Are Effective Tabular Learners" has been accepted at **AAAI**.
