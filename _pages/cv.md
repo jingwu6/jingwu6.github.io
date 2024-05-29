@@ -13,7 +13,7 @@ redirect_from:
 
 ## 🎓 **Education**
  
-- **Ph.D.** in [University of Illinois at Urbana-Champaign](https://illinois.edu/), *Expected 2024*
+- **Ph.D.** in [University of Illinois at Urbana-Champaign](https://illinois.edu/), *May 2024*
 - **M.S.** in [University of Illinois at Urbana-Champaign](https://illinois.edu/), *November 2019*
 - **B.S.** in [Northeastern University](https://www.northeastern.edu/), *June 2017*
 
@@ -30,9 +30,9 @@ redirect_from:
 ### **Conference Reviewer**
 - [CVPR](https://www.thecvf.com/) (Conference on Computer Vision and Pattern Recognition), *2022, 2023, 2024*
 - [ECCV](https://eccv2022.eu/) (European Conference on Computer Vision), *2022, 2024*
-- [NeurIPS](https://neurips.cc/) (Neural Information Processing Systems), *2022, 2023*
+- [NeurIPS](https://neurips.cc/) (Neural Information Processing Systems), *2022, 2023, 2024*
 - [ICLR](https://iclr.cc/) (International Conference on Learning Representations), *2023*
-- [ICML](https://icml.cc/)(International Conference on Machine Learning ) *2023*
+- [ICML](https://icml.cc/)(International Conference on Machine Learning ) *2023, 2024*
 ### **Journal Reviewer**
 - Data-centric Machine Learning Research (DMLR)
 - Computers and Electronics in Agriculture
