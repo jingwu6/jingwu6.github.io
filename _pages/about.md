@@ -29,9 +29,12 @@ Deeply motivated by the challenges associated with creating innovative technolog
 
 ## 📰 **News & Updates**
 
+- **May 2024**:
+  - I am pleased to announce the successful defense of my Ph.D. thesis.
+
 - **April 2024**:
   - Our paper, "The new agronomists: Language models are experts in crop management" has been accepted at **CVPR in AgVision**.
-  - Our paper, "Residual-based Language Models are Free Boosters for Biomedical Imaging" has been accepted at **CVPR in AI-MIA**.
+  - Our paper, "Residual-based Language Models are Free Boosters for Biomedical Imaging" has been accepted at **CVPR in AI-MIA** as **oral** presentation.
 
 - **Jan 2024**:
   - Our paper, "SwitchTab: Switched Autoencoders Are Effective Tabular Learners" has been accepted at **AAAI**.
