@@ -25,6 +25,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
 Deeply motivated by the challenges associated with creating innovative technologies.
 
+I have published approximately 10 research papers with total <a href='https://scholar.google.com/citations?user=yxmjOkcAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
 
 
 ## 📰 **News & Updates**
