@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-⭐ **Announcement:** If you have opportunities or collaborations in mind, please feel free to reach out. ⭐
+⭐ If you have opportunities or collaborations in mind, please feel free to reach out. ⭐
 
 
 ## 🎓 **Background**
