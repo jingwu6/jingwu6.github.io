@@ -7,19 +7,19 @@ redirect_from:
   - /about.html
 ---
 
-⭐ **Announcement:** I'm excited to announce that I will be on the job market in **2024**! If you have opportunities or collaborations in mind, please feel free to reach out. ⭐
+⭐ **Announcement:** If you have opportunities or collaborations in mind, please feel free to reach out. ⭐
 
 
 ## 🎓 **Background**
+I am currently an Applied Research Scientist at AWS, Amazon, working on GenAI.
 
-
-Currently, I'm working towards my **Ph.D.** at [**University of Illinois at Urbana-Champaign**](https://illinois.edu/), guided by [**Prof. Naira Hovakimyan**](https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/). 
+I was a **Ph.D.** candidate at [**University of Illinois at Urbana-Champaign**](https://illinois.edu/), guided by [**Prof. Naira Hovakimyan**](https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/). 
 
 I've also been a research scientist in machine learning at [**Intelinair**](https://www.intelinair.com/), mentored by [**Jennifer Hobbs**](https://scholar.google.com/citations?user=zeWhseAAAAAJ&hl=en). Additionally, I interned as an applied research scientist at [**Amazon**](https://www.amazon.jobs/en/teams/buyer-risk-prevention).
 
 ## 🔍 **Research Interests**
 
-My research is primarily in the fields of **machine learning**, **computer vision** and **multi-modality learning**. In particular, I'm interested in exploring **improved representation learning** techniques to aid machines in comprehending the structure of massive amounts of unlabeled data.
+My research is primarily in the fields of **LLM**, **computer vision** and **multi-modality learning**. In particular, I'm interested in exploring **improved representation learning** techniques to aid machines in comprehending the structure of massive amounts of unlabeled data.
 
 In industry applications, my efforts are devoted to **remote sensing**, **robotics** and **sustainable agriculture**. My philosophy towards research is centered around bringing people's lives and AI technology together at scale. 
 
