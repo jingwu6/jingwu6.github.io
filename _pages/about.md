@@ -11,7 +11,7 @@ redirect_from:
 
 
 ## 🎓 **Background**
-I am currently an Applied Research Scientist at AWS, Amazon, working on GenAI.
+I am currently an Applied Research Scientist at AWS, Amazon, working on Generative AI.
 
 I was a **Ph.D.** candidate at [**University of Illinois at Urbana-Champaign**](https://illinois.edu/), guided by [**Prof. Naira Hovakimyan**](https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/). 
 
