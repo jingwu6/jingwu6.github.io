@@ -30,9 +30,10 @@ Deeply motivated by the challenges associated with creating innovative technolog
 <!-- This section will hold the scrolling images from papers -->
 <div class="carousel">
   <div class="slides">
-    <img src="/assets/images/paper1_figure.png" alt="Figure from Paper 1">
-    <img src="/assets/images/paper2_figure.png" alt="Figure from Paper 2">
-    <img src="/assets/images/paper3_figure.png" alt="Figure from Paper 3">
+    <img src="/assets/images/Switch.png" alt="Figure from Paper 1">
+    <img src="/assets/images/ExtendedAG.png" alt="Figure from Paper 2">
+    <img src="/assets/images/LLM_AG.png" alt="Figure from Paper 3">
+    <img src="/assets/images/Hallucination.png" alt="Figure from Paper 3">
   </div>
   <button class="carousel-btn prev-btn" onclick="moveSlides(-1)">&#10094;</button>
   <button class="carousel-btn next-btn" onclick="moveSlides(1)">&#10095;</button>
