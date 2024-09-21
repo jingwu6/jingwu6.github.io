@@ -63,21 +63,6 @@ Deeply motivated by the challenges associated with creating innovative technolog
   - Our paper, "Hallucination Improves the Performance of Contrastive Learning," got accepted at **ICCV**. [Read the paper here](https://arxiv.org/pdf/2307.12168.pdf).
   - Our work "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing" received the **spotlight** at **ECAI**. [Read the paper here](https://arxiv.org/pdf/2307.14612.pdf).
 
-- **May 2023**: 
-  - I'm joining **Amazon** as an Intern Applied Research Scientist.
-
-- **April 2023**: 
-  - Our research on "Optimizing Crop Management with Reinforcement Learning and Imitation Learning" has been accepted at **IJCAI**. [Read the paper here](https://arxiv.org/pdf/2209.09991.pdf).
-
-- **March 2023**: 
-  - New paper on **Arxiv** titled "Dynamic Sparse Training for GANs". [Read the paper here](https://arxiv.org/pdf/2302.14670.pdf).
-  - Our work "Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis" got accepted at **TMLR**. [Read the paper here](https://arxiv.org/pdf/2303.02460.pdf).
-
-- **June 2022**: 
-  - Presented our research at **CVPR** in New Orleans.
-
-- **May 2022**: 
-  - Our paper, "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations", was accepted for an **oral** presentation at **CVPR in AgVision**. [Read the paper here](https://arxiv.org/pdf/2204.10394.pdf).
 
 ## 📑 **Selected Publications**
 
@@ -86,19 +71,19 @@ Deeply motivated by the challenges associated with creating innovative technolog
 <div class="carousel">
   <div class="slides">
     <figure>
-      <figcaption>SwitchTab: Switched Autoencoders Are Effective Tabular Learners</figcaption>
+      <figcaption class="caption-top">SwitchTab: Switched Autoencoders Are Effective Tabular Learners</figcaption>
       <img src="images/Switch.png" alt="SwitchTab: Switched Autoencoders Are Effective Tabular Learners">
     </figure>
     <figure>
-      <figcaption>Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis</figcaption>
+      <figcaption class="caption-top">Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis</figcaption>
       <img src="images/ExtendedAG.png" alt="Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis">
     </figure>
     <figure>
-      <figcaption>LLM-Based Reinforcement Learning for Crop Management</figcaption>
+      <figcaption class="caption-top">LLM-Based Reinforcement Learning for Crop Management</figcaption>
       <img src="images/LLM_AG.png" alt="LLM-Based Reinforcement Learning for Crop Management">
     </figure>
     <figure>
-      <figcaption>Hallucination Improves Performance in Contrastive Learning</figcaption>
+      <figcaption class="caption-top">Hallucination Improves Performance in Contrastive Learning</figcaption>
       <img src="images/Hallucination.png" alt="Hallucination Improves Performance in Contrastive Learning">
     </figure>
   </div>
@@ -121,7 +106,7 @@ Deeply motivated by the challenges associated with creating innovative technolog
 <style>
   .carousel {
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     margin: 20px auto;
     position: relative;
     overflow: hidden; /* Ensures only one slide is shown at a time */
@@ -129,7 +114,7 @@ Deeply motivated by the challenges associated with creating innovative technolog
 
   .carousel img {
     width: 100%;
-    max-height: 380px; /* Set the max height */
+    max-height: 300px; /* Set the max height */
     object-fit: contain; /* Ensures the images fit without distortion */
     display: block;
   }
@@ -146,18 +131,14 @@ Deeply motivated by the challenges associated with creating innovative technolog
     position: relative;
   }
 
-  figcaption {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
+  .caption-top {
     font-size: 1.2em; /* Increase the font size */
     font-weight: bold; /* Make the title bold */
     color: #333; /* Customize the color if needed */
     background-color: rgba(255, 255, 255, 0.8); /* Add a background to make the text more readable */
-    padding: 5px 10px;
-    width: 100%;
+    padding: 10px;
     text-align: center;
+    margin-bottom: 10px; /* Add space between the title and the image */
   }
 
   .carousel-btn {
