@@ -18,7 +18,7 @@ redirect_from:
 - **B.S.** in [Northeastern University](https://www.northeastern.edu/), *June 2017*
 
 ## 💼 **Industry Experience**
-
+- **Applied Research Scientist **, AWS, *2024*
 - **Applied Research Scientist Intern**, Amazon, *2023*
 - **Research Scientist in Deep Learning and Computer Vision**, Intelinair, *2021-2022*
 
@@ -31,8 +31,10 @@ redirect_from:
 - [CVPR](https://www.thecvf.com/) (Conference on Computer Vision and Pattern Recognition), *2022, 2023, 2024*
 - [ECCV](https://eccv2022.eu/) (European Conference on Computer Vision), *2022, 2024*
 - [NeurIPS](https://neurips.cc/) (Neural Information Processing Systems), *2022, 2023, 2024*
-- [ICLR](https://iclr.cc/) (International Conference on Learning Representations), *2023*
-- [ICML](https://icml.cc/)(International Conference on Machine Learning ) *2023, 2024*
+- [ICLR](https://iclr.cc/) (International Conference on Learning Representations), *2023, 2024*
+- [ICML](https://icml.cc/)(International Conference on Machine Learning) *2023, 2024*
+- [AAAI](https://aaai.org/conference/aaai/aaai-25/)(Annual AAAI Conference on Artificial Intelligence) *2024*
 ### **Journal Reviewer**
+- Transactions on Machine Learning Research (TMLR)
 - Data-centric Machine Learning Research (DMLR)
 - Computers and Electronics in Agriculture
