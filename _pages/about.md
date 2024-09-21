@@ -9,11 +9,10 @@ redirect_from:
 
 ⭐ If you have opportunities or collaborations in mind, please feel free to reach out. ⭐
 
-
 ## 🎓 **Background**
 I am currently an Applied Research Scientist at AWS, Amazon, working on Generative AI.
 
-I was a **Ph.D.** candidate at [**University of Illinois at Urbana-Champaign**](https://illinois.edu/), guided by [**Prof. Naira Hovakimyan**](https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/). 
+I was a **Ph.D.** candidate at [**University of Illinois at Urbana-Champaign**](https://illinois.edu/), guided by [**Prof. Naira Hovakimyan**](https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/).
 
 I've also been a research scientist in machine learning at [**Intelinair**](https://www.intelinair.com/), mentored by [**Jennifer Hobbs**](https://scholar.google.com/citations?user=zeWhseAAAAAJ&hl=en). Additionally, I interned as an applied research scientist at [**Amazon**](https://www.amazon.jobs/en/teams/buyer-risk-prevention).
 
@@ -25,42 +24,68 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
 Deeply motivated by the challenges associated with creating innovative technologies.
 
+## 📑 **Selected Papers**
 
-## 📰 **News & Updates**
+{% raw %}
+<!-- This section will hold the scrolling images from papers -->
+<div class="carousel">
+  <div class="slides">
+    <img src="/assets/images/paper1_figure.png" alt="Figure from Paper 1">
+    <img src="/assets/images/paper2_figure.png" alt="Figure from Paper 2">
+    <img src="/assets/images/paper3_figure.png" alt="Figure from Paper 3">
+  </div>
+  <button class="carousel-btn prev-btn" onclick="moveSlides(-1)">&#10094;</button>
+  <button class="carousel-btn next-btn" onclick="moveSlides(1)">&#10095;</button>
+</div>
 
-- **May 2024**:
-  - I am pleased to announce the successful defense of my Ph.D. thesis.
+<script>
+  let currentSlide = 0;
+  const slides = document.querySelector('.slides');
+  const totalSlides = slides.children.length;
 
-- **April 2024**:
-  - Our paper, "The new agronomists: Language models are experts in crop management" has been accepted at **CVPR in AgVision**.
-  - Our paper, "Residual-based Language Models are Free Boosters for Biomedical Imaging" has been accepted at **CVPR in AI-MIA** as **oral** presentation.
+  function moveSlides(n) {
+    currentSlide = (currentSlide + n + totalSlides) % totalSlides;
+    slides.style.transform = `translateX(-${currentSlide * 100}%)`;
+  }
+</script>
 
-- **Jan 2024**:
-  - Our paper, "SwitchTab: Switched Autoencoders Are Effective Tabular Learners" has been accepted at **AAAI**.
+<!-- Add the appropriate styles for the carousel -->
+<style>
+  .carousel {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+  }
 
-- **Oct 2023**:
-  - Our work on "ReConTab: Regularized Contrastive Representation Learning for Tabular Data" has been accepted at **NeurIPS** workshop.
+  .carousel img {
+    width: 100%;
+    display: block;
+  }
 
-- **September 2023**:
-  - Our paper titled "Balanced Training for Sparse GANs" has been accepted at **NeurIPS**.
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
 
-- **July 2023**: 
-  - Our paper, "Hallucination Improves the Performance of Contrastive Learning," got accepted at **ICCV**. [Read the paper here](https://arxiv.org/pdf/2307.12168.pdf).
-  - Our work "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing" received the **spotlight** at **ECAI**. [Read the paper here](https://arxiv.org/pdf/2307.14612.pdf).
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
 
-- **May 2023**: 
-  - I'm joining **Amazon** as an Intern Applied Research Scientist.
+  .prev-btn {
+    left: 10px;
+  }
 
-- **April 2023**: 
-  - Our research on "Optimizing Crop Management with Reinforcement Learning and Imitation Learning" has been accepted at **IJCAI**. [Read the paper here](https://arxiv.org/pdf/2209.09991.pdf).
-
-- **March 2023**: 
-  - New paper on **Arxiv** titled "Dynamic Sparse Training for GANs". [Read the paper here](https://arxiv.org/pdf/2302.14670.pdf).
-  - Our work "Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis" got accepted at **TMLR**. [Read the paper here](https://arxiv.org/pdf/2303.02460.pdf).
-
-- **June 2022**: 
-  - Presented our research at **CVPR** in New Orleans.
-
-- **May 2022**: 
-  - Our paper, "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations", was accepted for an **oral** presentation at **CVPR in AgVision**. [Read the paper here](https://arxiv.org/pdf/2204.10394.pdf).
-
+  .next-btn {
+    right: 10px;
+  }
+</style>
+{% endraw %}
