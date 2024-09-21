@@ -62,48 +62,16 @@ Deeply motivated by the challenges associated with creating innovative technolog
           <li>Our work "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing" received the <strong>spotlight</strong> at <strong>ECAI</strong>. <a href="https://arxiv.org/pdf/2307.14612.pdf">Read the paper here</a>.</li>
         </ul>
       </li>
-    </ul>
-  </div>
-</div>
+      <li><strong>May 2023</strong>: I'm joining <strong>Amazon</strong> as an Intern Applied Research Scientist.</li>
+      <li><strong>April 2023</strong>: 
+        <ul>
+          <li>Our research on "Optimizing Crop Management with Reinforcement Learning and Imitation Learning" has been accepted at <strong>IJCAI</strong>. <a href="https://arxiv.org/pdf/2209.09991.pdf">Read the paper here</a>.</li>
+        </ul>
+      </li>
+      <li><strong>March 2023</strong>: 
+        <ul>
+          <li>New paper on <stro
 
-<!-- CSS to make the news section scrollable -->
-<style>
-  .news-container {
-    margin: 20px auto;
-    width: 80%;
-    max-width: 600px;
-  }
-
-  .news-updates {
-    height: 200px; /* Adjust height as necessary */
-    overflow-y: scroll; /* Enable vertical scrolling */
-    padding: 10px;
-    border: 1px solid #ddd;
-    background-color: #f9f9f9;
-  }
-
-  .news-updates ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  .news-updates li {
-    margin-bottom: 15px;
-  }
-
-  .news-updates li ul {
-    margin-top: 5px;
-  }
-
-  .news-updates a {
-    color: #0066cc;
-    text-decoration: none;
-  }
-
-  .news-updates a:hover {
-    text-decoration: underline;
-  }
-</style>
 
 
 
