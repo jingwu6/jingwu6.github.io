@@ -18,7 +18,7 @@ redirect_from:
 - **B.S.** in [Northeastern University](https://www.northeastern.edu/), *June 2017*
 
 ## 💼 **Industry Experience**
-- **Applied Research Scientist **, AWS, *2024*
+- **Applied Research Scientist**, AWS, *2024*
 - **Applied Research Scientist Intern**, Amazon, *2023*
 - **Research Scientist in Deep Learning and Computer Vision**, Intelinair, *2021-2022*
 
