@@ -86,20 +86,20 @@ Deeply motivated by the challenges associated with creating innovative technolog
 <div class="carousel">
   <div class="slides">
     <figure>
-      <img src="images/Switch.png" alt="SwitchTab: Switched Autoencoders Are Effective Tabular Learners">
       <figcaption>SwitchTab: Switched Autoencoders Are Effective Tabular Learners</figcaption>
+      <img src="images/Switch.png" alt="SwitchTab: Switched Autoencoders Are Effective Tabular Learners">
     </figure>
     <figure>
-      <img src="images/ExtendedAG.png" alt="Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis">
       <figcaption>Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis</figcaption>
+      <img src="images/ExtendedAG.png" alt="Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis">
     </figure>
     <figure>
-      <img src="images/LLM_AG.png" alt="LLM-Based Reinforcement Learning for Crop Management">
       <figcaption>LLM-Based Reinforcement Learning for Crop Management</figcaption>
+      <img src="images/LLM_AG.png" alt="LLM-Based Reinforcement Learning for Crop Management">
     </figure>
     <figure>
-      <img src="images/Hallucination.png" alt="Hallucination Improves Performance in Contrastive Learning">
       <figcaption>Hallucination Improves Performance in Contrastive Learning</figcaption>
+      <img src="images/Hallucination.png" alt="Hallucination Improves Performance in Contrastive Learning">
     </figure>
   </div>
   <button class="carousel-btn prev-btn" onclick="moveSlides(-1)">&#10094;</button>
@@ -121,7 +121,7 @@ Deeply motivated by the challenges associated with creating innovative technolog
 <style>
   .carousel {
     width: 100%;
-    max-width: 600px;
+    max-width: 800px;
     margin: 20px auto;
     position: relative;
     overflow: hidden; /* Ensures only one slide is shown at a time */
@@ -129,7 +129,7 @@ Deeply motivated by the challenges associated with creating innovative technolog
 
   .carousel img {
     width: 100%;
-    max-height: 300px; /* Set the max height */
+    max-height: 380px; /* Set the max height */
     object-fit: contain; /* Ensures the images fit without distortion */
     display: block;
   }
@@ -137,18 +137,27 @@ Deeply motivated by the challenges associated with creating innovative technolog
   .slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 100%; /* Make sure each slide takes up the full width of the carousel */
   }
 
   figure {
     min-width: 100%; /* Each figure takes up the full width of the carousel */
     text-align: center;
-    padding: 10px 0;
+    padding: 0; /* Remove padding */
+    position: relative;
   }
 
   figcaption {
-    font-size: 0.9em;
-    color: #555; /* Customize the color if needed */
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.2em; /* Increase the font size */
+    font-weight: bold; /* Make the title bold */
+    color: #333; /* Customize the color if needed */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a background to make the text more readable */
+    padding: 5px 10px;
+    width: 100%;
+    text-align: center;
   }
 
   .carousel-btn {
