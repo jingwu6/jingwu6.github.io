@@ -124,7 +124,7 @@ Deeply motivated by the challenges associated with creating innovative technolog
     max-width: 600px;
     margin: 20px auto;
     position: relative;
-    overflow: hidden;
+    overflow: hidden; /* Ensures only one slide is shown at a time */
   }
 
   .carousel img {
@@ -137,9 +137,11 @@ Deeply motivated by the challenges associated with creating innovative technolog
   .slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    width: 100%; /* Make sure each slide takes up the full width of the carousel */
   }
 
   figure {
+    min-width: 100%; /* Each figure takes up the full width of the carousel */
     text-align: center;
     padding: 10px 0;
   }
