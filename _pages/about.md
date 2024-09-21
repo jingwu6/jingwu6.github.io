@@ -70,7 +70,58 @@ Deeply motivated by the challenges associated with creating innovative technolog
       </li>
       <li><strong>March 2023</strong>: 
         <ul>
-          <li>New paper on <stro
+          <li>New paper on <strong>Arxiv</strong> titled "Dynamic Sparse Training for GANs". <a href="https://arxiv.org/pdf/2302.14670.pdf">Read the paper here</a>.</li>
+          <li>Our work "Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis" got accepted at <strong>TMLR</strong>. <a href="https://arxiv.org/pdf/2303.02460.pdf">Read the paper here</a>.</li>
+        </ul>
+      </li>
+      <li><strong>June 2022</strong>: Presented our research at <strong>CVPR</strong> in New Orleans.</li>
+      <li><strong>May 2022</strong>: 
+        <ul>
+          <li>Our paper, "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations", was accepted for an <strong>oral</strong> presentation at <strong>CVPR in AgVision</strong>. <a href="https://arxiv.org/pdf/2204.10394.pdf">Read the paper here</a>.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- CSS to make the news section scrollable and align with previous titles -->
+<style>
+  .news-container {
+    margin: 20px auto;
+    width: 100%; /* Align width with previous titles */
+    max-width: 800px; /* Adjust width to make it wider */
+  }
+
+  .news-updates {
+    height: 250px; /* Adjust height for more content */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
+
+  .news-updates ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  .news-updates li {
+    margin-bottom: 15px;
+  }
+
+  .news-updates li ul {
+    margin-top: 5px;
+  }
+
+  .news-updates a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .news-updates a:hover {
+    text-decoration: underline;
+  }
+</style>
 
 
 
