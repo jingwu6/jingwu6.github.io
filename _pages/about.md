@@ -41,27 +41,70 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 Deeply motivated by the challenges associated with creating innovative technologies.
 
 
-## 📰 **News & Updates**
+<!-- Scrollable News Section -->
+<div class="news-container">
+  <h2>📰 News & Updates</h2>
+  <div class="news-updates">
+    <ul>
+      <li><strong>May 2024</strong>: I am pleased to announce the successful defense of my Ph.D. thesis.</li>
+      <li><strong>April 2024</strong>:
+        <ul>
+          <li>Our paper, "The new agronomists: Language models are experts in crop management" has been accepted at <strong>CVPR in AgVision</strong>.</li>
+          <li>Our paper, "Residual-based Language Models are Free Boosters for Biomedical Imaging" has been accepted at <strong>CVPR in AI-MIA</strong> as <strong>oral</strong> presentation.</li>
+        </ul>
+      </li>
+      <li><strong>Jan 2024</strong>: Our paper, "SwitchTab: Switched Autoencoders Are Effective Tabular Learners" has been accepted at <strong>AAAI</strong>.</li>
+      <li><strong>Oct 2023</strong>: Our work on "ReConTab: Regularized Contrastive Representation Learning for Tabular Data" has been accepted at <strong>NeurIPS</strong> workshop.</li>
+      <li><strong>September 2023</strong>: Our paper titled "Balanced Training for Sparse GANs" has been accepted at <strong>NeurIPS</strong>.</li>
+      <li><strong>July 2023</strong>: 
+        <ul>
+          <li>Our paper, "Hallucination Improves the Performance of Contrastive Learning," got accepted at <strong>ICCV</strong>. <a href="https://arxiv.org/pdf/2307.12168.pdf">Read the paper here</a>.</li>
+          <li>Our work "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing" received the <strong>spotlight</strong> at <strong>ECAI</strong>. <a href="https://arxiv.org/pdf/2307.14612.pdf">Read the paper here</a>.</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
 
-- **May 2024**:
-  - I am pleased to announce the successful defense of my Ph.D. thesis.
+<!-- CSS to make the news section scrollable -->
+<style>
+  .news-container {
+    margin: 20px auto;
+    width: 80%;
+    max-width: 600px;
+  }
 
-- **April 2024**:
-  - Our paper, "The new agronomists: Language models are experts in crop management" has been accepted at **CVPR in AgVision**.
-  - Our paper, "Residual-based Language Models are Free Boosters for Biomedical Imaging" has been accepted at **CVPR in AI-MIA** as **oral** presentation.
+  .news-updates {
+    height: 200px; /* Adjust height as necessary */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+  }
 
-- **Jan 2024**:
-  - Our paper, "SwitchTab: Switched Autoencoders Are Effective Tabular Learners" has been accepted at **AAAI**.
+  .news-updates ul {
+    list-style-type: none;
+    padding: 0;
+  }
 
-- **Oct 2023**:
-  - Our work on "ReConTab: Regularized Contrastive Representation Learning for Tabular Data" has been accepted at **NeurIPS** workshop.
+  .news-updates li {
+    margin-bottom: 15px;
+  }
 
-- **September 2023**:
-  - Our paper titled "Balanced Training for Sparse GANs" has been accepted at **NeurIPS**.
+  .news-updates li ul {
+    margin-top: 5px;
+  }
 
-- **July 2023**: 
-  - Our paper, "Hallucination Improves the Performance of Contrastive Learning," got accepted at **ICCV**. [Read the paper here](https://arxiv.org/pdf/2307.12168.pdf).
-  - Our work "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing" received the **spotlight** at **ECAI**. [Read the paper here](https://arxiv.org/pdf/2307.14612.pdf).
+  .news-updates a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+
+  .news-updates a:hover {
+    text-decoration: underline;
+  }
+</style>
+
 
 
 ## 📑 **Selected Publications**
