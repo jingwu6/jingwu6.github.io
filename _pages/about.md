@@ -108,7 +108,6 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
 ## 📑 **Selected Publications**
 
-
 <!-- Publication Carousel -->
 <div class="publication-carousel">
   <div class="carousel-container">
@@ -154,11 +153,9 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
     </div>
 
-    <!-- Dots for navigation -->
-    <div class="carousel-dots">
-      <span class="dot" data-slide="0"></span>
-      <span class="dot" data-slide="1"></span>
-      <span class="dot" data-slide="2"></span>
+    <!-- Rolling Bar -->
+    <div class="carousel-progress">
+      <input type="range" class="progress-bar" min="0" max="2" value="0" step="1" onchange="jumpToSlide(this.value)">
     </div>
 
   </div>
@@ -241,27 +238,18 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     text-decoration: underline;
   }
 
-  /* Dots styling */
-  .carousel-dots {
+  /* Rolling Bar styling */
+  .carousel-progress {
     text-align: center;
     position: absolute;
     bottom: 10px;
+    width: 100%;
     left: 50%;
     transform: translateX(-50%);
   }
 
-  .dot {
-    height: 15px;
-    width: 15px;
-    margin: 0 5px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    cursor: pointer;
-  }
-
-  .dot.active {
-    background-color: #1a73e8;
+  .progress-bar {
+    width: 60%;
   }
 
 </style>
@@ -270,14 +258,8 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 <script>
   let currentSlideIndex = 0;
   const slides = document.querySelector('.carousel-slides');
-  const dots = document.querySelectorAll('.dot');
   const totalSlides = slides.children.length;
-
-  // Move to the slide when dots are clicked
-  function currentSlide(n) {
-    currentSlideIndex = n;
-    updateSlidePosition();
-  }
+  const progressBar = document.querySelector('.progress-bar');
 
   // Auto-slide every 5 seconds
   let autoSlideInterval = setInterval(() => {
@@ -285,28 +267,24 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     updateSlidePosition();
   }, 5000);
 
-  // Function to update the slide position and highlight the corresponding dot
+  // Function to update the slide position
   function updateSlidePosition() {
     slides.style.transform = `translateX(-${(currentSlideIndex * 100) / totalSlides}%)`;
-    dots.forEach((dot, index) => {
-      dot.classList.toggle('active', index === currentSlideIndex);
-    });
+    progressBar.value = currentSlideIndex; // Update progress bar based on the current slide
   }
 
-  // Add click event listeners to each dot to trigger the slide change
-  dots.forEach(dot => {
-    dot.addEventListener('click', () => {
-      clearInterval(autoSlideInterval); // Stop auto-scroll on manual navigation
-      currentSlide(dot.dataset.slide);
-      autoSlideInterval = setInterval(() => { // Restart auto-scroll after manual navigation
-        currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
-        updateSlidePosition();
-      }, 5000);
-    });
-  });
+  // Function to jump to specific slide based on the rolling bar position
+  function jumpToSlide(slideIndex) {
+    clearInterval(autoSlideInterval); // Stop auto-scroll on manual navigation
+    currentSlideIndex = Number(slideIndex);
+    updateSlidePosition();
+    autoSlideInterval = setInterval(() => { // Restart auto-scroll after manual navigation
+      currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
+      updateSlidePosition();
+    }, 5000);
+  }
 
-  // Initial activation of the first dot
-  dots[0].classList.add('active');
 </script>
+
 
 
