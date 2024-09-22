@@ -108,7 +108,6 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
 ## 📑 **Selected Publications**
 
-
 <div class="publication-carousel">
   <div class="carousel-container">
     <button class="carousel-btn prev-btn" onclick="moveSlides(-1)">&#10094;</button>
@@ -163,23 +162,25 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     display: flex;
     align-items: center;
     position: relative;
+    overflow: hidden;
+    width: 100%; /* Container width */
   }
 
   .carousel-slides {
     display: flex;
-    overflow: hidden;
-    width: 800px; /* Adjust width to fit your content */
+    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Ensures only one item is visible */
   }
 
   .publication-slide {
     display: flex;
     align-items: center;
-    width: 800px; /* Adjust width to match the container */
-    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Adjust width to show only one publication at a time */
+    flex-shrink: 0;
   }
 
   .publication-image img {
-    width: 300px;
+    width: 200px;
     height: auto;
     margin-right: 20px;
   }
@@ -200,11 +201,11 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   }
 
   .prev-btn {
-    left: -50px;
+    left: 10px;
   }
 
   .next-btn {
-    right: -50px;
+    right: 10px;
   }
 </style>
 
@@ -216,6 +217,6 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
   function moveSlides(n) {
     currentSlideIndex = (currentSlideIndex + n + totalSlides) % totalSlides;
-    slides.style.transform = `translateX(-${currentSlideIndex * 800}px)`; // Adjust based on the width of the slides
+    slides.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
   }
 </script>
