@@ -199,7 +199,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 100%; /* Each slide takes full width */
     flex-shrink: 0;
     padding: 30px;
   }
@@ -270,7 +270,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
   // Function to move the slides
   function moveSlides(n) {
-    currentSlideIndex = (currentSlideIndex + n + totalSlides) % totalSlides;
+    currentSlideIndex = (currentSlideIndex + n + totalSlides) % totalSlides; // Wrap around using modulo
     updateSlidePosition();
   }
 
