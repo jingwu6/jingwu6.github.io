@@ -108,6 +108,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
 ## 📑 **Selected Publications**
 
+<!-- Publication Carousel -->
 <div class="publication-carousel">
   <div class="carousel-container">
 
@@ -283,7 +284,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     updateSlidePosition();
   }, 5000);
 
-  // Update the slide position and highlight the corresponding dot
+  // Function to update the slide position and highlight the corresponding dot
   function updateSlidePosition() {
     slides.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
     dots.forEach((dot, index) => {
@@ -291,5 +292,13 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     });
   }
 
+  // Add click event listeners to each dot to trigger the slide change
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      currentSlide(index);
+    });
+  });
+
 </script>
+
 
