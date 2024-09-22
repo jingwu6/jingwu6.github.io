@@ -135,9 +135,18 @@ Daniel Cociorva, Hakan Brunzell</em><br>
       <img src="images/LLM_AG.png" alt="The New Agronomists: Language Models are Experts in Crop Management">
       <figcaption>
         <strong>The New Agronomists: Language Models are Experts in Crop Management</strong><br>
-        <em>Authors: **Jing Wu**, Zhixin Lai, Suiyao Chen, Ran Tao, Pan Zhao, Naira Hovakimyan </em><br>
+        <em>Authors: <b>Jing Wu</b>, Zhixin Lai, Suiyao Chen, Ran Tao, Pan Zhao, Naira Hovakimyan </em><br>
         <a href="https://openaccess.thecvf.com/content/CVPR2024W/Vision4Ag/papers/Wu_The_New_Agronomists_Language_Models_are_Experts_in_Crop_Management_CVPRW_2024_paper.pdf" target="_blank">Read the paper</a> | 
         <a href="https://github.com/jingwu6/LM_AG" target="_blank">Code</a>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/residual.png" alt="Residual-based Language Models are Free Boosters for Biomedical Imaging Tasks">
+      <figcaption>
+        <strong>Residual-based Language Models are Free Boosters for Biomedical Imaging Tasks</strong><br>
+        <em>Authors: Zhixin Lai*, <b>Jing Wu</b>*, Suiyao Chen, Yucheng Zhou, Naira Hovakimyan </em><br>
+        <a href="https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Lai_Residual-based_Language_Models_are_Free_Boosters_for_Biomedical_Imaging_Tasks_CVPRW_2024_paper.pdf" target="_blank">Read the paper</a> | 
+        <a href="https://github.com/ZhixinLai/LLMBoostMedical" target="_blank">Code</a>
       </figcaption>
     </figure>
     <figure>
