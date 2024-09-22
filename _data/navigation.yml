@@ -1,16 +1,16 @@
 # main links links
 main:
 
-  - title: "Selected Publications"
-    url: /publications/
+  # - title: "Selected Publications"
+  #   url: /publications/
 
     
   - title: "CV"
     url: /cv/
     
     
-  - title: "Teaching"
-    url: /teaching/ 
+  # - title: "Teaching"
+  #   url: /teaching/ 
 
 #   - title: "Talk"
 #     url: /talks/    
