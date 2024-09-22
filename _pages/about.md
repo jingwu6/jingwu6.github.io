@@ -108,6 +108,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
 ## 📑 **Selected Publications**
 
+
 <!-- Publication Carousel -->
 <div class="publication-carousel">
   <div class="carousel-container">
@@ -155,7 +156,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
     <!-- Rolling Bar -->
     <div class="carousel-progress">
-      <input type="range" class="progress-bar" min="0" max="2" value="0" step="1" oninput="updateSlide(this.value)">
+      <input type="range" class="progress-bar" min="0" max="2" value="0" step="1" id="progressBar">
     </div>
 
   </div>
@@ -259,13 +260,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   let currentSlideIndex = 0;
   const slides = document.querySelector('.carousel-slides');
   const totalSlides = slides.children.length;
-  const progressBar = document.querySelector('.progress-bar');
-
-  // Auto-slide every 5 seconds
-  let autoSlideInterval = setInterval(() => {
-    currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
-    updateSlidePosition();
-  }, 5000);
+  const progressBar = document.querySelector('#progressBar');
 
   // Function to update the slide position
   function updateSlidePosition() {
@@ -273,17 +268,26 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     progressBar.value = currentSlideIndex; // Update progress bar based on the current slide
   }
 
-  // Function to update the slide manually when the rolling bar is used
-  function updateSlide(slideIndex) {
-    clearInterval(autoSlideInterval); // Stop auto-scroll on manual navigation
-    currentSlideIndex = Number(slideIndex);
-    updateSlidePosition();
-    autoSlideInterval = setInterval(() => { // Restart auto-scroll after manual navigation
+  // Auto-slide every 5 seconds
+  function startAutoSlide() {
+    autoSlideInterval = setInterval(() => {
       currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
       updateSlidePosition();
     }, 5000);
   }
 
+  // Manual change via progress bar
+  progressBar.addEventListener('input', (e) => {
+    clearInterval(autoSlideInterval); // Stop auto-scroll on manual navigation
+    currentSlideIndex = Number(e.target.value);
+    updateSlidePosition();
+    startAutoSlide(); // Restart auto-scroll after manual navigation
+  });
+
+  // Start auto-slide initially
+  startAutoSlide();
+
 </script>
+
 
 
