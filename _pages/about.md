@@ -113,7 +113,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     <button class="carousel-btn prev-btn" onclick="moveSlides(-1)">
       <i class="fas fa-chevron-left"></i>
     </button>
-    
+
     <!-- Carousel for switching between publications -->
     <div class="carousel-slides">
       
@@ -136,7 +136,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
         </div>
         <div class="publication-details">
           <h3>Balanced Training for Sparse GANs</h3>
-          <p><i>Neural Information Processing Systems (NeurIPS) 2024 </i></p>
+          <p><i>Neural Information Processing Systems (NeurIPS) 2024</i></p>
           <a class="publication-link" href="https://proceedings.neurips.cc/paper_files/paper/2023/file/2c28efa5a86dca4b603a36c08f49f240-Paper-Conference.pdf" target="_blank">arxiv</a> | <a class="publication-link" href="#" target="_blank">code</a>
         </div>
       </div>
@@ -161,18 +161,20 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   </div>
 </div>
 
-<!-- Improved styles -->
+<!-- Updated styles -->
 <style>
   body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f5f7fa;
+    background-color: #f9fafb; /* Match the theme of your header */
   }
 
   .publication-carousel {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0;
+    margin: 50px auto;
+    padding: 0;
+    max-width: 1200px; /* Center alignment and width constraints */
   }
 
   .carousel-container {
@@ -180,58 +182,47 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     align-items: center;
     position: relative;
     overflow: hidden;
-    width: 90%;
-    max-width: 1400px;
-    background: linear-gradient(135deg, #ffffff 0%, #f2f2f2 100%);
+    width: 100%;
+    background: #ffffff; /* Clean white background for the carousel */
     border-radius: 15px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); /* Soft shadow */
   }
 
   .carousel-slides {
     display: flex;
-    transition: transform 0.8s cubic-bezier(0.25, 1, 0.5, 1);
+    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
     width: 100%;
   }
 
   .publication-slide {
     display: flex;
     align-items: center;
+    justify-content: space-between; /* Improved balance between image and text */
     width: 100%;
     flex-shrink: 0;
-    padding: 20px;
-  }
-
-  .publication-image {
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
+    padding: 30px;
   }
 
   .publication-image img {
-    width: 450px;
+    width: 300px; /* Better image proportion */
     height: auto;
     border-radius: 10px;
-    transition: transform 0.4s ease;
-  }
-
-  .publication-image:hover img {
-    transform: scale(1.05);
+    transition: transform 0.3s ease;
   }
 
   .publication-details {
     margin-left: 40px;
     color: #333;
+    font-size: 1.1rem; /* Reduced font size for better balance */
   }
 
   .publication-details h3 {
-    font-size: 1.8rem;
-    font-weight: 600;
+    font-size: 1.5rem;
     margin-bottom: 10px;
   }
 
   .publication-details p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #555;
     margin-bottom: 20px;
   }
@@ -256,7 +247,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50%;
-    font-size: 2rem;
+    font-size: 1.5rem;
     transition: background-color 0.3s ease;
   }
 
@@ -265,11 +256,11 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   }
 
   .prev-btn {
-    left: -50px;
+    left: -40px;
   }
 
   .next-btn {
-    right: -50px;
+    right: -40px;
   }
 
   /* Icons styling */
@@ -279,7 +270,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   }
 </style>
 
-<!-- Improved JavaScript for switching slides -->
+<!-- Updated JavaScript -->
 <script>
   let currentSlideIndex = 0;
   const slides = document.querySelector('.carousel-slides');
@@ -290,4 +281,5 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     slides.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
   }
 </script>
+
 
