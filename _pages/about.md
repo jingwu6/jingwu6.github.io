@@ -155,7 +155,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
     <!-- Rolling Bar -->
     <div class="carousel-progress">
-      <input type="range" class="progress-bar" min="0" max="2" value="0" step="1" onchange="jumpToSlide(this.value)">
+      <input type="range" class="progress-bar" min="0" max="2" value="0" step="1" oninput="updateSlide(this.value)">
     </div>
 
   </div>
@@ -273,8 +273,8 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     progressBar.value = currentSlideIndex; // Update progress bar based on the current slide
   }
 
-  // Function to jump to specific slide based on the rolling bar position
-  function jumpToSlide(slideIndex) {
+  // Function to update the slide manually when the rolling bar is used
+  function updateSlide(slideIndex) {
     clearInterval(autoSlideInterval); // Stop auto-scroll on manual navigation
     currentSlideIndex = Number(slideIndex);
     updateSlidePosition();
@@ -285,6 +285,5 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   }
 
 </script>
-
 
 
