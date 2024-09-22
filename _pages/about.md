@@ -152,11 +152,6 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
     </div>
 
-    <!-- Scrolling bar -->
-    <div class="carousel-scrollbar">
-      <input type="range" min="0" max="2" value="0" step="1" class="scrollbar-range" onchange="moveSlideByScroll(this.value)">
-    </div>
-
     <!-- Dots for navigation -->
     <div class="carousel-dots">
       <span class="dot" onclick="currentSlide(0)"></span>
@@ -244,23 +239,11 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     text-decoration: underline;
   }
 
-  .carousel-scrollbar {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
-  }
-
-  .scrollbar-range {
-    width: 100%;
-  }
-
   /* Dots styling */
   .carousel-dots {
     text-align: center;
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
   }
@@ -281,7 +264,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
 </style>
 
-<!-- Updated JavaScript for the scrolling bar, navigation dots, and auto-slide -->
+<!-- Updated JavaScript for navigation dots and auto-scroll -->
 <script>
   let currentSlideIndex = 0;
   const slides = document.querySelector('.carousel-slides');
@@ -300,12 +283,6 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     updateSlidePosition();
   }, 5000);
 
-  // Move slide by scrollbar
-  function moveSlideByScroll(value) {
-    currentSlideIndex = value;
-    updateSlidePosition();
-  }
-
   // Update the slide position and highlight the corresponding dot
   function updateSlidePosition() {
     slides.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
@@ -315,5 +292,4 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   }
 
 </script>
-
 
