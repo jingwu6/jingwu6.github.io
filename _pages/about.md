@@ -140,6 +140,20 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
       </div>
 
 
+      <!-- Third publication -->
+      <div class="publication-slide">
+        <div class="publication-image">
+          <img src="images/residual.png" alt="Paper 2">
+        </div>
+        <div class="publication-details">
+          <h3>Residual-based Language Models are Free Boosters for Biomedical Imaging Tasks</h3>
+          <p><i>
+Conference on Computer Vision and Pattern Recognition Workshop (CVPRW) 2024 </i></p>
+          <a href="https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Lai_Residual-based_Language_Models_are_Free_Boosters_for_Biomedical_Imaging_Tasks_CVPRW_2024_paper.pdf" target="_blank">arxiv</a> | <a href="#" target="_blank">code</a>
+        </div>
+      </div>
+
+
       
     </div>
 
