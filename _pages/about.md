@@ -109,175 +109,119 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 ## 📑 **Selected Publications**
 
 
-<!-- Publication Carousel -->
-<div class="publication-carousel">
-  <div class="carousel-container">
+<!-- Carousel Container -->
+<div class="carousel-container">
+  <div class="carousel-slides">
 
-    <button class="carousel-btn prev-btn" onclick="moveSlides(-1)">&#10094;</button>
-
-    <!-- Carousel for switching between publications -->
-    <div class="carousel-slides">
-      
-      <!-- First publication -->
-      <div class="publication-slide">
-        <div class="publication-image">
-          <img src="images/Switch.png" alt="Paper 1">
-        </div>
-        <div class="publication-details">
-          <h3>Switchtab: Switched autoencoders are effective tabular learners</h3>
-          <p><i>Annual AAAI Conference on Artificial Intelligence (AAAI) 2024</i></p>
-          <a class="publication-link" href="https://arxiv.org/pdf/2401.02013" target="_blank">arxiv</a> | <a class="publication-link" href="#" target="_blank">code</a>
-        </div>
-      </div>
-
-      <!-- Second publication -->
-      <div class="publication-slide">
-        <div class="publication-image">
-          <img src="images/sparsegan.png" alt="Paper 2">
-        </div>
-        <div class="publication-details">
-          <h3>Balanced Training for Sparse GANs</h3>
-          <p><i>Neural Information Processing Systems (NeurIPS) 2024</i></p>
-          <a class="publication-link" href="https://proceedings.neurips.cc/paper_files/paper/2023/file/2c28efa5a86dca4b603a36c08f49f240-Paper-Conference.pdf" target="_blank">arxiv</a> | <a class="publication-link" href="#" target="_blank">code</a>
-        </div>
-      </div>
-
-      <!-- Third publication -->
-      <div class="publication-slide">
-        <div class="publication-image">
-          <img src="images/residual.png" alt="Paper 3">
-        </div>
-        <div class="publication-details">
-          <h3>Residual-based Language Models are Free Boosters for Biomedical Imaging Tasks</h3>
-          <p><i>Conference on Computer Vision and Pattern Recognition Workshop (CVPRW) 2024</i></p>
-          <a class="publication-link" href="https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Lai_Residual-based_Language_Models_are_Free_Boosters_for_Biomedical_Imaging_Tasks_CVPRW_2024_paper.pdf" target="_blank">arxiv</a> | <a class="publication-link" href="#" target="_blank">code</a>
-        </div>
-      </div>
-
+    <!-- Slide 1 -->
+    <div class="carousel-slide">
+      <img src="images/image1.png" alt="Slide 1">
+      <div class="slide-text">Certifiable Control and Verification for Safety Assurance</div>
     </div>
 
-    <button class="carousel-btn next-btn" onclick="moveSlides(1)">&#10095;</button>
+    <!-- Slide 2 -->
+    <div class="carousel-slide">
+      <img src="images/image2.png" alt="Slide 2">
+      <div class="slide-text">Switchtab: Switched Autoencoders are Effective Tabular Learners</div>
+    </div>
 
+    <!-- Slide 3 -->
+    <div class="carousel-slide">
+      <img src="images/image3.png" alt="Slide 3">
+      <div class="slide-text">Balanced Training for Sparse GANs</div>
+    </div>
+  </div>
+
+  <!-- Navigation Dots -->
+  <div class="dots">
+    <span class="dot" onclick="moveToSlide(0)"></span>
+    <span class="dot" onclick="moveToSlide(1)"></span>
+    <span class="dot" onclick="moveToSlide(2)"></span>
   </div>
 </div>
 
-<!-- Styles -->
+<!-- Styles for Carousel -->
 <style>
-  body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f9fafb;
-  }
-
-  .publication-carousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px auto;
-    padding: 0;
-    max-width: 1200px;
-  }
-
   .carousel-container {
-    display: flex;
-    align-items: center;
     position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 450px;
-    background: #ffffff;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
   }
 
   .carousel-slides {
     display: flex;
-    transition: transform 0.6s ease-in-out;
-    width: 300%; /* Each slide takes 100% width */
+    transition: transform 0.5s ease-in-out;
+    width: 300%; /* Three slides */
   }
 
-  .publication-slide {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%; /* Each slide takes full width */
-    flex-shrink: 0;
-    padding: 30px;
+  .carousel-slide {
+    min-width: 100%;
+    box-sizing: border-box;
+    text-align: center;
   }
 
-  .publication-image img {
-    width: 350px;
-    height: auto;
-    border-radius: 8px;
+  .carousel-slide img {
+    width: 100%;
+    border-radius: 10px;
   }
 
-  .publication-details {
-    margin-left: 30px;
+  .slide-text {
+    margin-top: 15px;
+    font-size: 1.1rem;
     color: #333;
-    font-size: 0.9rem;
   }
 
-  .publication-details h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
+  .dots {
+    text-align: center;
+    margin-top: 10px;
   }
 
-  .publication-details p {
-    font-size: 0.85rem;
-    color: #555;
-    margin-bottom: 15px;
-  }
-
-  .publication-link {
-    text-decoration: none;
-    color: #1a73e8;
-    font-weight: 500;
-  }
-
-  .publication-link:hover {
-    text-decoration: underline;
-  }
-
-  /* Navigation buttons styling */
-  .carousel-btn {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
+  .dot {
     cursor: pointer;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 2rem;
-    z-index: 10;
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    background-color: #bbb;
     border-radius: 50%;
+    display: inline-block;
   }
 
-  .prev-btn {
-    left: 10px;
+  .dot.active {
+    background-color: #717171;
   }
-
-  .next-btn {
-    right: 10px;
-  }
-
 </style>
 
-<!-- JavaScript -->
+<!-- JavaScript for Carousel Logic -->
 <script>
   let currentSlideIndex = 0;
   const slides = document.querySelector('.carousel-slides');
   const totalSlides = slides.children.length;
+  const dots = document.querySelectorAll('.dot');
 
-  // Function to move the slides
-  function moveSlides(n) {
-    currentSlideIndex = (currentSlideIndex + n + totalSlides) % totalSlides; // Wrap around using modulo
+  // Move to the selected slide
+  function moveToSlide(n) {
+    currentSlideIndex = n;
     updateSlidePosition();
   }
 
-  // Function to update the slide position
+  // Update slide position and dot state
   function updateSlidePosition() {
-    slides.style.transform = `translateX(-${(currentSlideIndex * 100) / totalSlides}%)`;
+    slides.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
+    updateDots();
   }
+
+  // Update the active dot
+  function updateDots() {
+    dots.forEach((dot, index) => {
+      dot.classList.toggle('active', index === currentSlideIndex);
+    });
+  }
+
+  // Initialize the first active dot
+  updateDots();
+</script>
+
 
 </script>
 
