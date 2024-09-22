@@ -165,7 +165,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 <style>
   body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f9fafb; /* Match the theme of your header */
+    background-color: #f2f4f7; /* Updated to match your site's background */
   }
 
   .publication-carousel {
@@ -174,7 +174,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     align-items: center;
     margin: 50px auto;
     padding: 0;
-    max-width: 1200px; /* Center alignment and width constraints */
+    max-width: 1400px; /* Adjust width for more space */
   }
 
   .carousel-container {
@@ -197,14 +197,14 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   .publication-slide {
     display: flex;
     align-items: center;
-    justify-content: space-between; /* Improved balance between image and text */
+    justify-content: space-between;
     width: 100%;
     flex-shrink: 0;
-    padding: 30px;
+    padding: 40px; /* Add more padding for better spacing */
   }
 
   .publication-image img {
-    width: 300px; /* Better image proportion */
+    width: 400px; /* Larger image size */
     height: auto;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -213,7 +213,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   .publication-details {
     margin-left: 40px;
     color: #333;
-    font-size: 1.1rem; /* Reduced font size for better balance */
+    font-size: 1.1rem; /* Adjusted text size */
   }
 
   .publication-details h3 {
@@ -229,7 +229,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
   .publication-link {
     text-decoration: none;
-    color: #1a73e8;
+    color: #1a73e8; /* Keep the link color */
     font-weight: 500;
   }
 
@@ -263,6 +263,11 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     right: -40px;
   }
 
+  /* Adjust the header to match the body */
+  header {
+    background-color: #f2f4f7; /* Match the color of the body */
+  }
+
   /* Icons styling */
   .fas {
     font-family: 'Font Awesome 5 Free';
@@ -281,5 +286,4 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     slides.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
   }
 </script>
-
 
