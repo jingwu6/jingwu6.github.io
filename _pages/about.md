@@ -138,7 +138,8 @@ Daniel Cociorva, Hakan Brunzell</em><br>
       <figcaption>
         <strong>Residual-based Language Models are Free Boosters for Biomedical Imaging Tasks</strong><br>
         <em>Authors: Zhixin Lai*, <b>Jing Wu</b>*, Suiyao Chen, Yucheng Zhou, Naira Hovakimyan </em><br>
-        <em>CVPRW 2024 </em><br>
+        <em>CVPRW 2024 <span style="color: red;">Oral</span>
+</em><br>
         <a href="https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Lai_Residual-based_Language_Models_are_Free_Boosters_for_Biomedical_Imaging_Tasks_CVPRW_2024_paper.pdf" target="_blank">Read the paper</a> | 
         <a href="https://github.com/ZhixinLai/LLMBoostMedical" target="_blank">Code</a>
       </figcaption>
@@ -163,15 +164,6 @@ Daniel Cociorva, Hakan Brunzell</em><br>
         <a href="https://github.com/jingwu6/Extended-Agriculture-Vision-Dataset" target="_blank">Data</a>
       </figcaption>
     </figure>
-<!--     <figure>
-      <img src="images/residual.png" alt="Residual-based Language Models are Free Boosters for Biomedical Imaging Tasks">
-      <figcaption>
-        <strong>Residual-based Language Models are Free Boosters for Biomedical Imaging Tasks</strong><br>
-        <em>Authors: Zhixin Lai*, <b>Jing Wu</b>*, Suiyao Chen, Yucheng Zhou, Naira Hovakimyan </em><br>
-        <a href="https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Lai_Residual-based_Language_Models_are_Free_Boosters_for_Biomedical_Imaging_Tasks_CVPRW_2024_paper.pdf" target="_blank">Read the paper</a> | 
-        <a href="https://github.com/ZhixinLai/LLMBoostMedical" target="_blank">Code</a>
-      </figcaption>
-    </figure> -->
     <figure>
       <img src="images/Hallucination.png" alt="Hallucination Improves Performance in Contrastive Learning">
       <figcaption>
