@@ -108,98 +108,114 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
 ## 📑 **Selected Publications**
 
-{% raw %}
-<!-- This section will hold the scrolling images from papers -->
-<div class="carousel">
-  <div class="slides">
-    <figure>
-      <figcaption class="caption-top">SwitchTab: Switched Autoencoders Are Effective Tabular Learners</figcaption>
-      <img src="images/Switch.png" alt="SwitchTab: Switched Autoencoders Are Effective Tabular Learners">
-    </figure>
-    <figure>
-      <figcaption class="caption-top">Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis</figcaption>
-      <img src="images/ExtendedAG.png" alt="Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis">
-    </figure>
-    <figure>
-      <figcaption class="caption-top">LLM-Based Reinforcement Learning for Crop Management</figcaption>
-      <img src="images/LLM_AG.png" alt="LLM-Based Reinforcement Learning for Crop Management">
-    </figure>
-    <figure>
-      <figcaption class="caption-top">Hallucination Improves Performance in Contrastive Learning</figcaption>
-      <img src="images/Hallucination.png" alt="Hallucination Improves Performance in Contrastive Learning">
-    </figure>
+
+<div class="publication-carousel">
+  <div class="carousel-container">
+    <button class="carousel-btn prev-btn" onclick="moveSlides(-1)">&#10094;</button>
+    
+    <!-- Carousel for switching between publications -->
+    <div class="carousel-slides">
+      
+      <!-- First publication -->
+      <div class="publication-slide">
+        <div class="publication-image">
+          <img src="/assets/images/paper1_figure.png" alt="Paper 1">
+        </div>
+        <div class="publication-details">
+          <h3>Efficient Large Language Models: A Survey</h3>
+          <p>Zhongwei Wan, Xin Wang, Che Liu, Samiul Alam, Yu Zheng, Jiachen Liu, Zhongnan Qu, Shen Yan, Yi Zhu, Quanlu Zhang, Mosharaf Chowdhury, Mi Zhang</p>
+          <p><i>Transactions on Machine Learning Research (TMLR) 2024</i></p>
+          <a href="https://arxiv.org/pdf/2307.12168.pdf" target="_blank">arxiv</a> | <a href="#" target="_blank">code</a>
+        </div>
+      </div>
+
+      <!-- Second publication -->
+      <div class="publication-slide">
+        <div class="publication-image">
+          <img src="/assets/images/paper2_figure.png" alt="Paper 2">
+        </div>
+        <div class="publication-details">
+          <h3>SwitchTab: Switched Autoencoders Are Effective Tabular Learners</h3>
+          <p>Authors...</p>
+          <p><i>Conference/Journal...</i></p>
+          <a href="https://arxiv.org/pdf/xyz.pdf" target="_blank">arxiv</a> | <a href="#" target="_blank">code</a>
+        </div>
+      </div>
+
+      <!-- Add more publications as needed -->
+      
+    </div>
+
+    <button class="carousel-btn next-btn" onclick="moveSlides(1)">&#10095;</button>
   </div>
-  <button class="carousel-btn prev-btn" onclick="moveSlides(-1)">&#10094;</button>
-  <button class="carousel-btn next-btn" onclick="moveSlides(1)">&#10095;</button>
 </div>
 
-<script>
-  let currentSlide = 0;
-  const slides = document.querySelector('.slides');
-  const totalSlides = slides.children.length;
-
-  function moveSlides(n) {
-    currentSlide = (currentSlide + n + totalSlides) % totalSlides;
-    slides.style.transform = `translateX(-${currentSlide * 100}%)`;
-  }
-</script>
-
-<!-- Add the appropriate styles for the carousel -->
+<!-- Add styles for layout and carousel -->
 <style>
-  .carousel {
-    width: 100%;
-    max-width: 600px;
-    margin: 20px auto;
-    position: relative;
-    overflow: hidden; /* Ensures only one slide is shown at a time */
-  }
-
-  .carousel img {
-    width: 100%;
-    max-height: 300px; /* Set the max height */
-    object-fit: contain; /* Ensures the images fit without distortion */
-    display: block;
-  }
-
-  .slides {
+  .publication-carousel {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .carousel-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .carousel-slides {
+    display: flex;
+    overflow: hidden;
+    width: 800px; /* Adjust width to fit your content */
+  }
+
+  .publication-slide {
+    display: flex;
+    align-items: center;
+    width: 800px; /* Adjust width to match the container */
     transition: transform 0.5s ease-in-out;
   }
 
-  figure {
-    min-width: 100%; /* Each figure takes up the full width of the carousel */
-    text-align: center;
-    padding: 0; /* Remove padding */
-    position: relative;
+  .publication-image img {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
   }
 
-  .caption-top {
-    font-size: 1.2em; /* Increase the font size */
-    font-weight: bold; /* Make the title bold */
-    color: #333; /* Customize the color if needed */
-    background-color: rgba(255, 255, 255, 0.8); /* Add a background to make the text more readable */
-    padding: 10px;
-    text-align: center;
-    margin-bottom: 10px; /* Add space between the title and the image */
+  .publication-details {
+    flex-grow: 1;
   }
 
   .carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
   }
 
   .prev-btn {
-    left: 10px;
+    left: -50px;
   }
 
   .next-btn {
-    right: 10px;
+    right: -50px;
   }
 </style>
-{% endraw %}
+
+<!-- Add the JavaScript for switching slides -->
+<script>
+  let currentSlideIndex = 0;
+  const slides = document.querySelector('.carousel-slides');
+  const totalSlides = slides.children.length;
+
+  function moveSlides(n) {
+    currentSlideIndex = (currentSlideIndex + n + totalSlides) % totalSlides;
+    slides.style.transform = `translateX(-${currentSlideIndex * 800}px)`; // Adjust based on the width of the slides
+  }
+</script>
