@@ -109,8 +109,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
 ## 📑 **Selected Publications**
 
-{% raw %}
-<!-- This section will hold the scrolling images from papers -->
+
 <div class="carousel">
   <div class="slides">
     <figure>
@@ -145,38 +144,38 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   }
 </script>
 
-<!-- Add the appropriate styles for the carousel -->
 <style>
   .carousel {
     width: 100%;
     max-width: 600px;
     margin: 20px auto;
     position: relative;
-    overflow: hidden; /* Ensures only one slide is shown at a time */
+    overflow: hidden;
   }
 
   .carousel img {
     width: 100%;
-    max-height: 300px; /* Set the max height */
-    object-fit: contain; /* Ensures the images fit without distortion */
+    max-height: 300px;
+    object-fit: contain;
     display: block;
   }
 
   .slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 100%; /* Make sure each slide takes up the full width of the carousel */
+    width: 100%;
   }
 
   figure {
-    min-width: 100%; /* Each figure takes up the full width of the carousel */
+    min-width: 100%;
     text-align: center;
     padding: 10px 0;
   }
 
   figcaption {
-    font-size: 0.9em;
-    color: #555; /* Customize the color if needed */
+    font-size: 1em;
+    color: #333;
+    text-align: center;
   }
 
   .carousel-btn {
@@ -198,8 +197,3 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     right: 10px;
   }
 </style>
-{% endraw %}
-
-
-
-
