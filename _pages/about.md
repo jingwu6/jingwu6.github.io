@@ -161,11 +161,11 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   </div>
 </div>
 
-<!-- Updated styles with improved navigation arrow design -->
+<!-- Updated styles for color consistency, icons, and scaling -->
 <style>
   body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f2f4f7; /* Consistent background */
+    background-color: #f9fafb; /* Consistent background with your header */
   }
 
   .publication-carousel {
@@ -174,7 +174,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     align-items: center;
     margin: 50px auto;
     padding: 0;
-    max-width: 1400px;
+    max-width: 1200px;
   }
 
   .carousel-container {
@@ -184,7 +184,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     overflow: hidden;
     width: 100%;
     background: #ffffff; /* Clean white background for the carousel */
-    border-radius: 15px;
+    border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   }
 
@@ -200,30 +200,30 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     justify-content: space-between;
     width: 100%;
     flex-shrink: 0;
-    padding: 40px;
+    padding: 30px;
   }
 
   .publication-image img {
-    width: 500px;
+    width: 300px; /* Scaled down image size */
     height: auto;
-    border-radius: 10px;
+    border-radius: 8px;
   }
 
   .publication-details {
-    margin-left: 40px;
+    margin-left: 30px;
     color: #333;
-    font-size: 0.95rem;
+    font-size: 0.9rem; /* Adjusted to match proportions of the second example */
   }
 
   .publication-details h3 {
-    font-size: 1.4rem; 
+    font-size: 1.2rem; /* Scaled down title */
     margin-bottom: 10px;
   }
 
   .publication-details p {
-    font-size: 0.9rem;
+    font-size: 0.85rem; /* Consistent with second image */
     color: #555;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
 
   .publication-link {
@@ -240,7 +240,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
-    padding: 15px;
+    padding: 10px;
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -248,7 +248,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     border-radius: 50%;
     font-size: 1.5rem;
     transition: background-color 0.3s ease;
-    z-index: 10; /* Ensure it's above other elements */
+    z-index: 10;
   }
 
   .carousel-btn:hover {
@@ -256,8 +256,8 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   }
 
   .prev-btn, .next-btn {
-    width: 40px; /* Smaller, more subtle buttons */
-    height: 40px;
+    width: 35px; /* Fixed icon size */
+    height: 35px;
   }
 
   .prev-btn {
@@ -270,7 +270,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
   /* Adjust icons to be less obtrusive */
   .fas {
-    font-size: 1.2rem; /* Appropriate icon size */
+    font-size: 1rem; /* Reduced icon size */
   }
 </style>
 
@@ -285,3 +285,4 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     slides.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
   }
 </script>
+
