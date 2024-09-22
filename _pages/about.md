@@ -115,9 +115,11 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
       <img src="images/Switch.png" alt="SwitchTab: Switched Autoencoders Are Effective Tabular Learners">
       <figcaption>
         <strong>SwitchTab: Switched Autoencoders Are Effective Tabular Learners</strong><br>
-        <em>Authors: [Author Names]</em><br>
-        <a href="[Paper Link]" target="_blank">Read the paper</a> | 
-        <a href="[Code Link]" target="_blank">Code</a>
+        <em>Authors: [ng Wu*, Suiyao Chen*, Qi Zhao,
+Renat Sergazinov, Chen Li, Shengjie Liu, Chongchao Zhao, Tianpei Xie, Hanqing Guo, Cheng Ji,
+Daniel Cociorva, Hakan Brunzell]</em><br>
+        <a href="[https://arxiv.org/pdf/2401.02013]" target="_blank">Read the paper</a> | 
+<!--         <a href="[Code Link]" target="_blank">Code</a> -->
       </figcaption>
     </figure>
     <figure>
