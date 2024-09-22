@@ -115,10 +115,10 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
       <img src="images/Switch.png" alt="SwitchTab: Switched Autoencoders Are Effective Tabular Learners">
       <figcaption>
         <strong>SwitchTab: Switched Autoencoders Are Effective Tabular Learners</strong><br>
-        <em>Authors: [ng Wu*, Suiyao Chen*, Qi Zhao,
+        <em>Authors: Jng Wu*, Suiyao Chen*, Qi Zhao,
 Renat Sergazinov, Chen Li, Shengjie Liu, Chongchao Zhao, Tianpei Xie, Hanqing Guo, Cheng Ji,
-Daniel Cociorva, Hakan Brunzell]</em><br>
-        <a href="[https://arxiv.org/pdf/2401.02013]" target="_blank">Read the paper</a> | 
+Daniel Cociorva, Hakan Brunzell</em><br>
+        <a href="https://arxiv.org/pdf/2401.02013" target="_blank">Read the paper</a>  
 <!--         <a href="[Code Link]" target="_blank">Code</a> -->
       </figcaption>
     </figure>
@@ -126,9 +126,9 @@ Daniel Cociorva, Hakan Brunzell]</em><br>
       <img src="images/ExtendedAG.png" alt="Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis">
       <figcaption>
         <strong>Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis</strong><br>
-        <em>Authors: [Author Names]</em><br>
-        <a href="[Paper Link]" target="_blank">Read the paper</a> | 
-        <a href="[Code Link]" target="_blank">Code</a>
+        <em>Authors: Jing Wu, David Pichler, Daniel Marley, David Wilson, Naira Hovakimyan, Jennifer Hobbs </em><br>
+        <a href="https://arxiv.org/pdf/2303.02460" target="_blank">Read the paper</a> | 
+        <a href="https://github.com/jingwu6/Extended-Agriculture-Vision-Dataset" target="_blank">Code</a>
       </figcaption>
     </figure>
     <figure>
@@ -168,7 +168,7 @@ Daniel Cociorva, Hakan Brunzell]</em><br>
 <style>
   .carousel {
     width: 100%;
-    max-width: 600px;
+    max-width: 700px;
     margin: 20px auto;
     position: relative;
     overflow: hidden;
