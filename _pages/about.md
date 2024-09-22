@@ -150,6 +150,24 @@ Daniel Cociorva, Hakan Brunzell</em><br>
       </figcaption>
     </figure>
     <figure>
+      <img src="images/sparsegan.png" alt="Balanced Training for Sparse GANs">
+      <figcaption>
+        <strong>Balanced Training for Sparse GANs</strong><br>
+        <em>Authors: , Yite Wang*, <b>Jing Wu</b>*, Naira Hovakimyan, Ruoyu Sun </em><br>
+        <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/2c28efa5a86dca4b603a36c08f49f240-Paper-Conference.pdf" target="_blank">Read the paper</a> | 
+        <a href="https://github.com/YiteWang/ADAPT" target="_blank">Code</a>
+      </figcaption>
+    </figure>
+    <figure>
+      <img src="images/residual.png" alt="Residual-based Language Models are Free Boosters for Biomedical Imaging Tasks">
+      <figcaption>
+        <strong>Residual-based Language Models are Free Boosters for Biomedical Imaging Tasks</strong><br>
+        <em>Authors: Zhixin Lai*, <b>Jing Wu</b>*, Suiyao Chen, Yucheng Zhou, Naira Hovakimyan </em><br>
+        <a href="https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Lai_Residual-based_Language_Models_are_Free_Boosters_for_Biomedical_Imaging_Tasks_CVPRW_2024_paper.pdf" target="_blank">Read the paper</a> | 
+        <a href="https://github.com/ZhixinLai/LLMBoostMedical" target="_blank">Code</a>
+      </figcaption>
+    </figure>
+    <figure>
       <img src="images/Hallucination.png" alt="Hallucination Improves Performance in Contrastive Learning">
       <figcaption>
         <strong>Hallucination Improves Performance in Contrastive Learning</strong><br>
