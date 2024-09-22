@@ -108,6 +108,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
 ## 📑 **Selected Publications**
 
+
 <!-- Publication Carousel -->
 <div class="publication-carousel">
   <div class="carousel-container">
@@ -194,15 +195,15 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
   .carousel-slides {
     display: flex;
-    transition: transform 0.6s cubic-bezier(0.25, 1, 0.5, 1);
-    width: 100%;
+    transition: transform 0.6s ease-in-out;
+    width: 300%; /* 100% for each slide */
   }
 
   .publication-slide {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 100%; /* Each slide takes 100% of the container width */
     flex-shrink: 0;
     padding: 30px;
   }
@@ -272,21 +273,21 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   const dots = document.querySelectorAll('.dot');
   const totalSlides = slides.children.length;
 
-  // Move slides when dots are clicked
+  // Move to the slide when dots are clicked
   function currentSlide(n) {
     currentSlideIndex = n;
     updateSlidePosition();
   }
 
   // Auto-slide every 5 seconds
-  setInterval(() => {
+  let autoSlideInterval = setInterval(() => {
     currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
     updateSlidePosition();
   }, 5000);
 
   // Function to update the slide position and highlight the corresponding dot
   function updateSlidePosition() {
-    slides.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
+    slides.style.transform = `translateX(-${currentSlideIndex * 100 / totalSlides}%)`;
     dots.forEach((dot, index) => {
       dot.classList.toggle('active', index === currentSlideIndex);
     });
@@ -295,10 +296,13 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   // Add click event listeners to each dot to trigger the slide change
   dots.forEach((dot, index) => {
     dot.addEventListener('click', () => {
+      clearInterval(autoSlideInterval); // Stop auto-scroll on manual navigation
       currentSlide(index);
+      autoSlideInterval = setInterval(() => { // Restart auto-scroll after manual navigation
+        currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
+        updateSlidePosition();
+      }, 5000);
     });
   });
 
 </script>
-
-
