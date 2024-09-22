@@ -113,6 +113,8 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 <div class="publication-carousel">
   <div class="carousel-container">
 
+    <button class="carousel-btn prev-btn" onclick="moveSlides(-1)">&#10094;</button>
+
     <!-- Carousel for switching between publications -->
     <div class="carousel-slides">
       
@@ -154,10 +156,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
     </div>
 
-    <!-- Rolling Bar -->
-    <div class="carousel-progress">
-      <input type="range" class="progress-bar" min="0" max="2" value="0" step="1" id="progressBar">
-    </div>
+    <button class="carousel-btn next-btn" onclick="moveSlides(1)">&#10095;</button>
 
   </div>
 </div>
@@ -188,13 +187,12 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     background: #ffffff;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    padding-bottom: 20px;
   }
 
   .carousel-slides {
     display: flex;
     transition: transform 0.6s ease-in-out;
-    width: 300%;
+    width: 300%; /* Each slide takes 100% width */
   }
 
   .publication-slide {
@@ -239,18 +237,27 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     text-decoration: underline;
   }
 
-  /* Rolling Bar styling */
-  .carousel-progress {
-    text-align: center;
+  /* Navigation buttons styling */
+  .carousel-btn {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
     position: absolute;
-    bottom: 10px;
-    width: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    z-index: 10;
+    border-radius: 50%;
   }
 
-  .progress-bar {
-    width: 60%;
+  .prev-btn {
+    left: 10px;
+  }
+
+  .next-btn {
+    right: 10px;
   }
 
 </style>
@@ -260,34 +267,20 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   let currentSlideIndex = 0;
   const slides = document.querySelector('.carousel-slides');
   const totalSlides = slides.children.length;
-  const progressBar = document.querySelector('#progressBar');
+
+  // Function to move the slides
+  function moveSlides(n) {
+    currentSlideIndex = (currentSlideIndex + n + totalSlides) % totalSlides;
+    updateSlidePosition();
+  }
 
   // Function to update the slide position
   function updateSlidePosition() {
     slides.style.transform = `translateX(-${(currentSlideIndex * 100) / totalSlides}%)`;
-    progressBar.value = currentSlideIndex; // Update progress bar based on the current slide
   }
-
-  // Auto-slide every 5 seconds
-  function startAutoSlide() {
-    autoSlideInterval = setInterval(() => {
-      currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
-      updateSlidePosition();
-    }, 5000);
-  }
-
-  // Manual change via progress bar
-  progressBar.addEventListener('input', (e) => {
-    clearInterval(autoSlideInterval); // Stop auto-scroll on manual navigation
-    currentSlideIndex = Number(e.target.value);
-    updateSlidePosition();
-    startAutoSlide(); // Restart auto-scroll after manual navigation
-  });
-
-  // Start auto-slide initially
-  startAutoSlide();
 
 </script>
+
 
 
 
