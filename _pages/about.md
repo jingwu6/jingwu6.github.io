@@ -139,35 +139,31 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
         </div>
       </div>
 
-
       <!-- Third publication -->
       <div class="publication-slide">
         <div class="publication-image">
-          <img src="images/residual.png" alt="Paper 2">
+          <img src="images/residual.png" alt="Paper 3">
         </div>
         <div class="publication-details">
           <h3>Residual-based Language Models are Free Boosters for Biomedical Imaging Tasks</h3>
-          <p><i>
-Conference on Computer Vision and Pattern Recognition Workshop (CVPRW) 2024 </i></p>
+          <p><i>Conference on Computer Vision and Pattern Recognition Workshop (CVPRW) 2024</i></p>
           <a href="https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Lai_Residual-based_Language_Models_are_Free_Boosters_for_Biomedical_Imaging_Tasks_CVPRW_2024_paper.pdf" target="_blank">arxiv</a> | <a href="#" target="_blank">code</a>
         </div>
       </div>
 
-
-      
     </div>
 
     <button class="carousel-btn next-btn" onclick="moveSlides(1)">&#10095;</button>
   </div>
 </div>
 
-<!-- Add styles for layout and carousel -->
+<!-- Updated styles -->
 <style>
   .publication-carousel {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px 0;
+    margin: 40px 0;
   }
 
   .carousel-container {
@@ -175,13 +171,15 @@ Conference on Computer Vision and Pattern Recognition Workshop (CVPRW) 2024 </i>
     align-items: center;
     position: relative;
     overflow: hidden;
-    width: 100%; /* Container width */
+    width: 85%; /* Increased width to make the container larger */
+    max-width: 1200px; /* Maximum width */
+    height: auto;
   }
 
   .carousel-slides {
     display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 100%; /* Ensures only one item is visible */
+    transition: transform 0.6s ease-in-out;
+    width: 100%;
   }
 
   .publication-slide {
@@ -189,39 +187,56 @@ Conference on Computer Vision and Pattern Recognition Workshop (CVPRW) 2024 </i>
     align-items: center;
     width: 100%; /* Adjust width to show only one publication at a time */
     flex-shrink: 0;
+    padding: 20px; /* Adding some padding to the content */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adding some shadow for a professional look */
+    background-color: #fff; /* White background */
+    border-radius: 10px; /* Rounded corners */
   }
 
   .publication-image img {
-    width: 200px;
+    width: 400px; /* Increased image size */
     height: auto;
-    margin-right: 20px;
+    margin-right: 40px; /* More space between image and text */
   }
 
   .publication-details {
     flex-grow: 1;
+    font-size: 1.2rem; /* Increase font size for better readability */
+  }
+
+  .publication-details h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .publication-details p {
+    margin-bottom: 20px;
   }
 
   .carousel-btn {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
     border: none;
-    padding: 10px;
+    padding: 20px;
     cursor: pointer;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    border-radius: 50%; /* Rounded buttons */
+    font-size: 1.5rem;
   }
 
   .prev-btn {
-    left: 10px;
+    left: -40px;
   }
 
   .next-btn {
-    right: 10px;
+    right: -40px;
   }
 </style>
 
-<!-- Add the JavaScript for switching slides -->
+<!-- Updated JavaScript -->
 <script>
   let currentSlideIndex = 0;
   const slides = document.querySelector('.carousel-slides');
