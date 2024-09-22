@@ -109,24 +109,43 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
 ## 📑 **Selected Publications**
 
-
 <div class="carousel">
   <div class="slides">
     <figure>
       <img src="images/Switch.png" alt="SwitchTab: Switched Autoencoders Are Effective Tabular Learners">
-      <figcaption>SwitchTab: Switched Autoencoders Are Effective Tabular Learners</figcaption>
+      <figcaption>
+        <strong>SwitchTab: Switched Autoencoders Are Effective Tabular Learners</strong><br>
+        <em>Authors: [Author Names]</em><br>
+        <a href="[Paper Link]" target="_blank">Read the paper</a> | 
+        <a href="[Code Link]" target="_blank">Code</a>
+      </figcaption>
     </figure>
     <figure>
       <img src="images/ExtendedAG.png" alt="Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis">
-      <figcaption>Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis</figcaption>
+      <figcaption>
+        <strong>Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis</strong><br>
+        <em>Authors: [Author Names]</em><br>
+        <a href="[Paper Link]" target="_blank">Read the paper</a> | 
+        <a href="[Code Link]" target="_blank">Code</a>
+      </figcaption>
     </figure>
     <figure>
       <img src="images/LLM_AG.png" alt="LLM-Based Reinforcement Learning for Crop Management">
-      <figcaption>LLM-Based Reinforcement Learning for Crop Management</figcaption>
+      <figcaption>
+        <strong>LLM-Based Reinforcement Learning for Crop Management</strong><br>
+        <em>Authors: [Author Names]</em><br>
+        <a href="[Paper Link]" target="_blank">Read the paper</a> | 
+        <a href="[Code Link]" target="_blank">Code</a>
+      </figcaption>
     </figure>
     <figure>
       <img src="images/Hallucination.png" alt="Hallucination Improves Performance in Contrastive Learning">
-      <figcaption>Hallucination Improves Performance in Contrastive Learning</figcaption>
+      <figcaption>
+        <strong>Hallucination Improves Performance in Contrastive Learning</strong><br>
+        <em>Authors: [Author Names]</em><br>
+        <a href="[Paper Link]" target="_blank">Read the paper</a> | 
+        <a href="[Code Link]" target="_blank">Code</a>
+      </figcaption>
     </figure>
   </div>
   <button class="carousel-btn prev-btn" onclick="moveSlides(-1)">&#10094;</button>
@@ -197,3 +216,4 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     right: 10px;
   }
 </style>
+
