@@ -118,7 +118,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
       <!-- First publication -->
       <div class="publication-slide">
         <div class="publication-image">
-          <img src="/images/Switch.png.png" alt="Paper 1">
+          <img src="images/Switch.png" alt="Paper 1">
         </div>
         <div class="publication-details">
           <h3>Switchtab: Switched autoencoders are effective tabular learners</h3>
@@ -130,17 +130,16 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
       <!-- Second publication -->
       <div class="publication-slide">
         <div class="publication-image">
-          <img src="/assets/images/paper2_figure.png" alt="Paper 2">
+          <img src="images/sparsegan.png" alt="Paper 2">
         </div>
         <div class="publication-details">
-          <h3>SwitchTab: Switched Autoencoders Are Effective Tabular Learners</h3>
-          <p>Authors...</p>
-          <p><i>Conference/Journal...</i></p>
-          <a href="https://arxiv.org/pdf/xyz.pdf" target="_blank">arxiv</a> | <a href="#" target="_blank">code</a>
+          <h3>Balanced Training for Sparse GANs</h3>
+          <p><i>Neural Information Processing Systems (NeurIPS) 2024 </i></p>
+          <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/2c28efa5a86dca4b603a36c08f49f240-Paper-Conference.pdf" target="_blank">arxiv</a> | <a href="#" target="_blank">code</a>
         </div>
       </div>
 
-      <!-- Add more publications as needed -->
+
       
     </div>
 
