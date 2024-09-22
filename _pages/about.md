@@ -118,13 +118,12 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
       <!-- First publication -->
       <div class="publication-slide">
         <div class="publication-image">
-          <img src="/assets/images/paper1_figure.png" alt="Paper 1">
+          <img src="/images/Switch.png.png" alt="Paper 1">
         </div>
         <div class="publication-details">
-          <h3>Efficient Large Language Models: A Survey</h3>
-          <p>Zhongwei Wan, Xin Wang, Che Liu, Samiul Alam, Yu Zheng, Jiachen Liu, Zhongnan Qu, Shen Yan, Yi Zhu, Quanlu Zhang, Mosharaf Chowdhury, Mi Zhang</p>
-          <p><i>Transactions on Machine Learning Research (TMLR) 2024</i></p>
-          <a href="https://arxiv.org/pdf/2307.12168.pdf" target="_blank">arxiv</a> | <a href="#" target="_blank">code</a>
+          <h3>Switchtab: Switched autoencoders are effective tabular learners</h3>
+          <p><i>Annual AAAI Conference on Artificial Intelligence (AAAI) 2024</i></p>
+          <a href="https://arxiv.org/pdf/2401.02013" target="_blank">arxiv</a> | <a href="#" target="_blank">code</a>
         </div>
       </div>
 
