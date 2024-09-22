@@ -196,20 +196,20 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   .carousel-slides {
     display: flex;
     transition: transform 0.6s ease-in-out;
-    width: 300%; /* 100% for each slide */
+    width: 300%; /* Ensures each slide takes 100% width */
   }
 
   .publication-slide {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%; /* Each slide takes 100% of the container width */
+    width: 100%; /* Each slide takes full width */
     flex-shrink: 0;
     padding: 30px;
   }
 
   .publication-image img {
-    width: 350px; /* Increased image size */
+    width: 350px;
     height: auto;
     border-radius: 8px;
   }
@@ -221,7 +221,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   }
 
   .publication-details h3 {
-    font-size: 1.2rem; 
+    font-size: 1.2rem;
     margin-bottom: 10px;
   }
 
@@ -287,7 +287,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
   // Function to update the slide position and highlight the corresponding dot
   function updateSlidePosition() {
-    slides.style.transform = `translateX(-${currentSlideIndex * 100 / totalSlides}%)`;
+    slides.style.transform = `translateX(-${(currentSlideIndex * 100) / totalSlides}%)`;
     dots.forEach((dot, index) => {
       dot.classList.toggle('active', index === currentSlideIndex);
     });
@@ -304,5 +304,5 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
       }, 5000);
     });
   });
-
 </script>
+
