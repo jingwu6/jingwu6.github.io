@@ -120,7 +120,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
       <!-- First publication -->
       <div class="publication-slide">
         <div class="publication-image">
-          <img src="images/Switch.png" alt="Paper 1">
+          <img src="images/Switch.png" alt="Switched autoencoders are effective tabular learners">
         </div>
         <div class="publication-details">
           <h3>Switchtab: Switched autoencoders are effective tabular learners</h3>
@@ -129,30 +129,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
         </div>
       </div>
 
-      <!-- Second publication -->
-      <div class="publication-slide">
-        <div class="publication-image">
-          <img src="images/sparsegan.png" alt="Paper 2">
-        </div>
-        <div class="publication-details">
-          <h3>Balanced Training for Sparse GANs</h3>
-          <p><i>Neural Information Processing Systems (NeurIPS) 2024</i></p>
-          <a class="publication-link" href="https://proceedings.neurips.cc/paper_files/paper/2023/file/2c28efa5a86dca4b603a36c08f49f240-Paper-Conference.pdf" target="_blank">arxiv</a> | <a class="publication-link" href="#" target="_blank">code</a>
-        </div>
-      </div>
-
-      <!-- Third publication -->
-      <div class="publication-slide">
-        <div class="publication-image">
-          <img src="images/residual.png" alt="Paper 3">
-        </div>
-        <div class="publication-details">
-          <h3>Residual-based Language Models are Free Boosters for Biomedical Imaging Tasks</h3>
-          <p><i>Conference on Computer Vision and Pattern Recognition Workshop (CVPRW) 2024</i></p>
-          <a class="publication-link" href="https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Lai_Residual-based_Language_Models_are_Free_Boosters_for_Biomedical_Imaging_Tasks_CVPRW_2024_paper.pdf" target="_blank">arxiv</a> | <a class="publication-link" href="#" target="_blank">code</a>
-        </div>
-      </div>
-
+      <!-- Add more publications as needed -->
     </div>
 
     <button class="carousel-btn next-btn" onclick="moveSlides(1)">
@@ -163,18 +140,12 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
 <!-- Updated styles -->
 <style>
-  body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f2f4f7; /* Updated to match your site's background */
-  }
-
   .publication-carousel {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 50px auto;
-    padding: 0;
-    max-width: 1400px; /* Adjust width for more space */
+    max-width: 1400px; /* Ensures proper scaling and alignment */
   }
 
   .carousel-container {
@@ -183,9 +154,9 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     position: relative;
     overflow: hidden;
     width: 100%;
-    background: #ffffff; /* Clean white background for the carousel */
+    background: #ffffff;
     border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05); /* Soft shadow */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
   }
 
   .carousel-slides {
@@ -199,37 +170,34 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    flex-shrink: 0;
-    padding: 40px; /* Add more padding for better spacing */
+    padding: 20px;
   }
 
   .publication-image img {
-    width: 400px; /* Larger image size */
+    width: 450px; /* Increased for better visual balance */
     height: auto;
-    border-radius: 10px;
     transition: transform 0.3s ease;
   }
 
   .publication-details {
     margin-left: 40px;
     color: #333;
-    font-size: 1.1rem; /* Adjusted text size */
+    font-size: 0.9rem; /* Scaled down to harmonize with the image size */
   }
 
   .publication-details h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem; /* Adjusted for better proportionality */
     margin-bottom: 10px;
   }
 
   .publication-details p {
-    font-size: 1rem;
-    color: #555;
+    font-size: 0.85rem; /* Subtle decrease in font size for metadata */
     margin-bottom: 20px;
   }
 
   .publication-link {
     text-decoration: none;
-    color: #1a73e8; /* Keep the link color */
+    color: #1a73e8;
     font-weight: 500;
   }
 
@@ -238,40 +206,28 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   }
 
   .carousel-btn {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: none;
-    padding: 20px;
+    padding: 10px;
     cursor: pointer;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50%;
-    font-size: 1.5rem;
-    transition: background-color 0.3s ease;
+    font-size: 2rem;
   }
 
   .carousel-btn:hover {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
   }
 
-  .prev-btn {
-    left: -40px;
-  }
-
-  .next-btn {
-    right: -40px;
-  }
-
-  /* Adjust the header to match the body */
-  header {
-    background-color: #f2f4f7; /* Match the color of the body */
-  }
-
-  /* Icons styling */
-  .fas {
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
+  .prev-btn, .next-btn {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    border: 2px solid #ccc; /* Subtle border for better visibility */
   }
 </style>
 
@@ -286,4 +242,5 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     slides.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
   }
 </script>
+
 
