@@ -126,18 +126,18 @@ Daniel Cociorva, Hakan Brunzell</em><br>
       <img src="images/ExtendedAG.png" alt="Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis">
       <figcaption>
         <strong>Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis</strong><br>
-        <em>Authors: Jing Wu, David Pichler, Daniel Marley, David Wilson, Naira Hovakimyan, Jennifer Hobbs </em><br>
+        <em>Authors: **Jing Wu**, David Pichler, Daniel Marley, David Wilson, Naira Hovakimyan, Jennifer Hobbs </em><br>
         <a href="https://arxiv.org/pdf/2303.02460" target="_blank">Read the paper</a> | 
-        <a href="https://github.com/jingwu6/Extended-Agriculture-Vision-Dataset" target="_blank">Code</a>
+        <a href="https://github.com/jingwu6/Extended-Agriculture-Vision-Dataset" target="_blank">Data</a>
       </figcaption>
     </figure>
     <figure>
       <img src="images/LLM_AG.png" alt="The New Agronomists: Language Models are Experts in Crop Management">
       <figcaption>
         <strong>The New Agronomists: Language Models are Experts in Crop Management</strong><br>
-        <em>Authors: [Author Names]</em><br>
+        <em>Authors: Jing Wu, Zhixin Lai, Suiyao Chen, Ran Tao, Pan Zhao, Naira Hovakimyan </em><br>
         <a href="https://openaccess.thecvf.com/content/CVPR2024W/Vision4Ag/papers/Wu_The_New_Agronomists_Language_Models_are_Experts_in_Crop_Management_CVPRW_2024_paper.pdf" target="_blank">Read the paper</a> | 
-        <a href="[Code Link]" target="_blank">Code</a>
+        <a href="https://github.com/jingwu6/LM_AG" target="_blank">Code</a>
       </figcaption>
     </figure>
     <figure>
