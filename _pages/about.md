@@ -197,3 +197,9 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     right: 10px;
   }
 </style>
+
+
+  .next-btn {
+    right: 10px;
+  }
+</style>
