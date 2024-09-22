@@ -132,11 +132,11 @@ Daniel Cociorva, Hakan Brunzell</em><br>
       </figcaption>
     </figure>
     <figure>
-      <img src="images/LLM_AG.png" alt="LLM-Based Reinforcement Learning for Crop Management">
+      <img src="images/LLM_AG.png" alt="The New Agronomists: Language Models are Experts in Crop Management">
       <figcaption>
-        <strong>LLM-Based Reinforcement Learning for Crop Management</strong><br>
+        <strong>The New Agronomists: Language Models are Experts in Crop Management</strong><br>
         <em>Authors: [Author Names]</em><br>
-        <a href="[Paper Link]" target="_blank">Read the paper</a> | 
+        <a href="https://openaccess.thecvf.com/content/CVPR2024W/Vision4Ag/papers/Wu_The_New_Agronomists_Language_Models_are_Experts_in_Crop_Management_CVPRW_2024_paper.pdf" target="_blank">Read the paper</a> | 
         <a href="[Code Link]" target="_blank">Code</a>
       </figcaption>
     </figure>
