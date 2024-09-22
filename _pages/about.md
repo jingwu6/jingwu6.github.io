@@ -156,6 +156,14 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     <div class="carousel-scrollbar">
       <input type="range" min="0" max="2" value="0" step="1" class="scrollbar-range" onchange="moveSlideByScroll(this.value)">
     </div>
+
+    <!-- Dots for navigation -->
+    <div class="carousel-dots">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+
   </div>
 </div>
 
@@ -248,23 +256,64 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     width: 100%;
   }
 
+  /* Dots styling */
+  .carousel-dots {
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  .dot.active {
+    background-color: #1a73e8;
+  }
+
 </style>
 
-<!-- Updated JavaScript for the scrolling bar -->
+<!-- Updated JavaScript for the scrolling bar, navigation dots, and auto-slide -->
 <script>
   let currentSlideIndex = 0;
   const slides = document.querySelector('.carousel-slides');
+  const dots = document.querySelectorAll('.dot');
   const totalSlides = slides.children.length;
 
-  function moveSlides(n) {
-    currentSlideIndex = (currentSlideIndex + n + totalSlides) % totalSlides;
-    slides.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
+  // Move slides when dots are clicked
+  function currentSlide(n) {
+    currentSlideIndex = n;
+    updateSlidePosition();
   }
 
+  // Auto-slide every 5 seconds
+  setInterval(() => {
+    currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
+    updateSlidePosition();
+  }, 5000);
+
+  // Move slide by scrollbar
   function moveSlideByScroll(value) {
     currentSlideIndex = value;
-    slides.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
+    updateSlidePosition();
   }
+
+  // Update the slide position and highlight the corresponding dot
+  function updateSlidePosition() {
+    slides.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
+    dots.forEach((dot, index) => {
+      dot.classList.toggle('active', index === currentSlideIndex);
+    });
+  }
+
 </script>
 
 
