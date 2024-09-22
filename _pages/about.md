@@ -110,9 +110,6 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
 <div class="publication-carousel">
   <div class="carousel-container">
-    <button class="carousel-btn prev-btn" onclick="moveSlides(-1)">
-      <i class="fas fa-chevron-left"></i>
-    </button>
 
     <!-- Carousel for switching between publications -->
     <div class="carousel-slides">
@@ -155,17 +152,18 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
     </div>
 
-    <button class="carousel-btn next-btn" onclick="moveSlides(1)">
-      <i class="fas fa-chevron-right"></i>
-    </button>
+    <!-- Scrolling bar -->
+    <div class="carousel-scrollbar">
+      <input type="range" min="0" max="2" value="0" step="1" class="scrollbar-range" onchange="moveSlideByScroll(this.value)">
+    </div>
   </div>
 </div>
 
-<!-- Updated styles for color consistency, icons, and scaling -->
+<!-- Updated styles -->
 <style>
   body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f9fafb; /* Consistent background with your header */
+    background-color: #f9fafb; /* Unified background color */
   }
 
   .publication-carousel {
@@ -183,9 +181,11 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     position: relative;
     overflow: hidden;
     width: 100%;
-    background: #ffffff; /* Clean white background for the carousel */
+    height: 450px; /* Increased window height */
+    background: #ffffff; /* Clean white background */
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    padding-bottom: 20px; /* Extra space for scrollbar */
   }
 
   .carousel-slides {
@@ -204,7 +204,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   }
 
   .publication-image img {
-    width: 300px; /* Scaled down image size */
+    width: 350px; /* Increased image size */
     height: auto;
     border-radius: 8px;
   }
@@ -212,16 +212,16 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   .publication-details {
     margin-left: 30px;
     color: #333;
-    font-size: 0.9rem; /* Adjusted to match proportions of the second example */
+    font-size: 0.9rem;
   }
 
   .publication-details h3 {
-    font-size: 1.2rem; /* Scaled down title */
+    font-size: 1.2rem; 
     margin-bottom: 10px;
   }
 
   .publication-details p {
-    font-size: 0.85rem; /* Consistent with second image */
+    font-size: 0.85rem;
     color: #555;
     margin-bottom: 15px;
   }
@@ -236,45 +236,21 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     text-decoration: underline;
   }
 
-  .carousel-btn {
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
+  .carousel-scrollbar {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    font-size: 1.5rem;
-    transition: background-color 0.3s ease;
-    z-index: 10;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
   }
 
-  .carousel-btn:hover {
-    background-color: rgba(0, 0, 0, 0.7);
+  .scrollbar-range {
+    width: 100%;
   }
 
-  .prev-btn, .next-btn {
-    width: 35px; /* Fixed icon size */
-    height: 35px;
-  }
-
-  .prev-btn {
-    left: -20px;
-  }
-
-  .next-btn {
-    right: -20px;
-  }
-
-  /* Adjust icons to be less obtrusive */
-  .fas {
-    font-size: 1rem; /* Reduced icon size */
-  }
 </style>
 
-<!-- Updated JavaScript for smoother transitions -->
+<!-- Updated JavaScript for the scrolling bar -->
 <script>
   let currentSlideIndex = 0;
   const slides = document.querySelector('.carousel-slides');
@@ -284,5 +260,11 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     currentSlideIndex = (currentSlideIndex + n + totalSlides) % totalSlides;
     slides.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
   }
+
+  function moveSlideByScroll(value) {
+    currentSlideIndex = value;
+    slides.style.transform = `translateX(-${currentSlideIndex * 100}%)`;
+  }
 </script>
+
 
