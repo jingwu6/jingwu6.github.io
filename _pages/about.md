@@ -156,19 +156,19 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
     <!-- Dots for navigation -->
     <div class="carousel-dots">
-      <span class="dot" onclick="currentSlide(0)"></span>
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" data-slide="0"></span>
+      <span class="dot" data-slide="1"></span>
+      <span class="dot" data-slide="2"></span>
     </div>
 
   </div>
 </div>
 
-<!-- Updated styles -->
+<!-- Styles -->
 <style>
   body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f9fafb; /* Unified background color */
+    background-color: #f9fafb;
   }
 
   .publication-carousel {
@@ -186,24 +186,24 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 450px; /* Increased window height */
-    background: #ffffff; /* Clean white background */
+    height: 450px;
+    background: #ffffff;
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
-    padding-bottom: 20px; /* Extra space for scrollbar */
+    padding-bottom: 20px;
   }
 
   .carousel-slides {
     display: flex;
     transition: transform 0.6s ease-in-out;
-    width: 300%; /* Ensures each slide takes 100% width */
+    width: 300%;
   }
 
   .publication-slide {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%; /* Each slide takes full width */
+    width: 100%;
     flex-shrink: 0;
     padding: 30px;
   }
@@ -266,7 +266,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
 
 </style>
 
-<!-- Updated JavaScript for navigation dots and auto-scroll -->
+<!-- JavaScript -->
 <script>
   let currentSlideIndex = 0;
   const slides = document.querySelector('.carousel-slides');
@@ -294,15 +294,19 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   }
 
   // Add click event listeners to each dot to trigger the slide change
-  dots.forEach((dot, index) => {
+  dots.forEach(dot => {
     dot.addEventListener('click', () => {
       clearInterval(autoSlideInterval); // Stop auto-scroll on manual navigation
-      currentSlide(index);
+      currentSlide(dot.dataset.slide);
       autoSlideInterval = setInterval(() => { // Restart auto-scroll after manual navigation
         currentSlideIndex = (currentSlideIndex + 1) % totalSlides;
         updateSlidePosition();
       }, 5000);
     });
   });
+
+  // Initial activation of the first dot
+  dots[0].classList.add('active');
 </script>
+
 
