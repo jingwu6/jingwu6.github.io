@@ -118,17 +118,9 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
         <em>Authors: <b>Jing Wu</b>*, Suiyao Chen*, Qi Zhao,
 Renat Sergazinov, Chen Li, Shengjie Liu, Chongchao Zhao, Tianpei Xie, Hanqing Guo, Cheng Ji,
 Daniel Cociorva, Hakan Brunzell</em><br>
+        <em>AAAI 2024 </em><br>
         <a href="https://arxiv.org/pdf/2401.02013" target="_blank">Read the paper</a>  
 <!--         <a href="[Code Link]" target="_blank">Code</a> -->
-      </figcaption>
-    </figure>
-    <figure>
-      <img src="images/ExtendedAG.png" alt="Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis">
-      <figcaption>
-        <strong>Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis</strong><br>
-        <em>Authors:  <b>Jing Wu</b>, David Pichler, Daniel Marley, David Wilson, Naira Hovakimyan, Jennifer Hobbs </em><br>
-        <a href="https://arxiv.org/pdf/2303.02460" target="_blank">Read the paper</a> | 
-        <a href="https://github.com/jingwu6/Extended-Agriculture-Vision-Dataset" target="_blank">Data</a>
       </figcaption>
     </figure>
     <figure>
@@ -136,6 +128,7 @@ Daniel Cociorva, Hakan Brunzell</em><br>
       <figcaption>
         <strong>The New Agronomists: Language Models are Experts in Crop Management</strong><br>
         <em>Authors: <b>Jing Wu</b>, Zhixin Lai, Suiyao Chen, Ran Tao, Pan Zhao, Naira Hovakimyan </em><br>
+        <em>CVPRW 2024 </em><br>
         <a href="https://openaccess.thecvf.com/content/CVPR2024W/Vision4Ag/papers/Wu_The_New_Agronomists_Language_Models_are_Experts_in_Crop_Management_CVPRW_2024_paper.pdf" target="_blank">Read the paper</a> | 
         <a href="https://github.com/jingwu6/LM_AG" target="_blank">Code</a>
       </figcaption>
@@ -145,6 +138,7 @@ Daniel Cociorva, Hakan Brunzell</em><br>
       <figcaption>
         <strong>Residual-based Language Models are Free Boosters for Biomedical Imaging Tasks</strong><br>
         <em>Authors: Zhixin Lai*, <b>Jing Wu</b>*, Suiyao Chen, Yucheng Zhou, Naira Hovakimyan </em><br>
+        <em>CVPRW 2024 </em><br>
         <a href="https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Lai_Residual-based_Language_Models_are_Free_Boosters_for_Biomedical_Imaging_Tasks_CVPRW_2024_paper.pdf" target="_blank">Read the paper</a> | 
         <a href="https://github.com/ZhixinLai/LLMBoostMedical" target="_blank">Code</a>
       </figcaption>
@@ -154,11 +148,22 @@ Daniel Cociorva, Hakan Brunzell</em><br>
       <figcaption>
         <strong>Balanced Training for Sparse GANs</strong><br>
         <em>Authors: , Yite Wang*, <b>Jing Wu</b>*, Naira Hovakimyan, Ruoyu Sun </em><br>
+        <em>NeurIPS 2023 </em><br>
         <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/2c28efa5a86dca4b603a36c08f49f240-Paper-Conference.pdf" target="_blank">Read the paper</a> | 
         <a href="https://github.com/YiteWang/ADAPT" target="_blank">Code</a>
       </figcaption>
     </figure>
     <figure>
+      <img src="images/ExtendedAG.png" alt="Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis">
+      <figcaption>
+        <strong>Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis</strong><br>
+        <em>Authors:  <b>Jing Wu</b>, David Pichler, Daniel Marley, David Wilson, Naira Hovakimyan, Jennifer Hobbs </em><br>
+        <em>TMLR 2023 </em><br>
+        <a href="https://arxiv.org/pdf/2303.02460" target="_blank">Read the paper</a> | 
+        <a href="https://github.com/jingwu6/Extended-Agriculture-Vision-Dataset" target="_blank">Data</a>
+      </figcaption>
+    </figure>
+<!--     <figure>
       <img src="images/residual.png" alt="Residual-based Language Models are Free Boosters for Biomedical Imaging Tasks">
       <figcaption>
         <strong>Residual-based Language Models are Free Boosters for Biomedical Imaging Tasks</strong><br>
@@ -166,12 +171,13 @@ Daniel Cociorva, Hakan Brunzell</em><br>
         <a href="https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Lai_Residual-based_Language_Models_are_Free_Boosters_for_Biomedical_Imaging_Tasks_CVPRW_2024_paper.pdf" target="_blank">Read the paper</a> | 
         <a href="https://github.com/ZhixinLai/LLMBoostMedical" target="_blank">Code</a>
       </figcaption>
-    </figure>
+    </figure> -->
     <figure>
       <img src="images/Hallucination.png" alt="Hallucination Improves Performance in Contrastive Learning">
       <figcaption>
         <strong>Hallucination Improves Performance in Contrastive Learning</strong><br>
         <em>Authors:  <b>Jing Wu</b>, Jennifer Hobbs, Naira Hovakimyan</em><br>
+        <em>ICCV 2023 </em><br>
         <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Hallucination_Improves_the_Performance_of_Unsupervised_Visual_Representation_Learning_ICCV_2023_paper.pdf" target="_blank">Read the paper</a> 
 <!--         <a href="[Code Link]" target="_blank">Code</a> -->
       </figcaption>
@@ -195,7 +201,7 @@ Daniel Cociorva, Hakan Brunzell</em><br>
 <style>
   .carousel {
     width: 100%;
-    max-width: 700px;
+    max-width: 800px;
     margin: 20px auto;
     position: relative;
     overflow: hidden;
@@ -203,7 +209,7 @@ Daniel Cociorva, Hakan Brunzell</em><br>
 
   .carousel img {
     width: 100%;
-    max-height: 300px;
+    max-height: 350px;
     object-fit: contain;
     display: block;
   }
