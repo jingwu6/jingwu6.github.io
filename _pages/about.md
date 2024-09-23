@@ -148,7 +148,7 @@ Daniel Cociorva, Hakan Brunzell</em><br>
       <img src="images/sparsegan.png" alt="Balanced Training for Sparse GANs">
       <figcaption>
         <strong>Balanced Training for Sparse GANs</strong><br>
-        <em>Authors: , Yite Wang*, <b>Jing Wu</b>*, Naira Hovakimyan, Ruoyu Sun </em><br>
+        <em>Authors: Yite Wang*, <b>Jing Wu</b>*, Naira Hovakimyan, Ruoyu Sun </em><br>
         <em>NeurIPS 2023 </em><br>
         <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/2c28efa5a86dca4b603a36c08f49f240-Paper-Conference.pdf" target="_blank">Read the paper</a> | 
         <a href="https://github.com/YiteWang/ADAPT" target="_blank">Code</a>
