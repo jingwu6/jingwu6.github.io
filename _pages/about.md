@@ -170,7 +170,7 @@ Daniel Cociorva, Hakan Brunzell</em><br>
         <strong>Hallucination Improves Performance in Contrastive Learning</strong><br>
         <em>Authors:  <b>Jing Wu</b>, Jennifer Hobbs, Naira Hovakimyan</em><br>
         <em>ICCV 2023 </em><br>
-        <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Hallucination_Improves_the_Performance_of_Unsupervised_Visual_Representation_Learning_ICCV_2023_paper.pdf" target="_blank">Read the paper</a> 
+        <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Hallucination_Improves_the_Performance_of_Unsupervised_Visual_Representation_Learning_ICCV_2023_paper.pdf" target="_blank">Read the paper</a> | 
         <a href="https://github.com/jingwu6/Hallucination-improves-the-performance-of-unsupervised-visual-representation-learning" target="_blank">Code</a>
       </figcaption>
     </figure>
