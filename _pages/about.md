@@ -26,6 +26,7 @@ In industry applications, my efforts are devoted to **remote sensing**, **roboti
   <h2>📰 News & Updates</h2>
   <div class="news-updates">
     <ul>
+      <li><strong>Jan 2025</strong>: Our paper, "Improving Model Probability Calibration by Integration of Large Data Sources with Biased Labels" has been accepted at <strong>AAAI</strong>.</li>
       <li><strong>May 2024</strong>: I am pleased to announce the successful defense of my Ph.D. thesis.</li>
       <li><strong>April 2024</strong>:
         <ul>
