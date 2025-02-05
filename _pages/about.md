@@ -1,247 +1,155 @@
----
-permalink: /
-title: "About Me"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
+import React, { useState } from 'react';
+import { Github, Linkedin, Mail, Book, Award } from 'lucide-react';
 
-⭐ If you have opportunities or collaborations in mind, please feel free to reach out. ⭐
+const EnhancedWebsite = () => {
+  const [currentPublication, setCurrentPublication] = useState(0);
+  const publications = [
+    {
+      title: "SwitchTab: Switched Autoencoders Are Effective Tabular Learners",
+      authors: "Jing Wu*, Suiyao Chen*, Qi Zhao, et al.",
+      venue: "AAAI 2024",
+      image: "images/Switch.png",
+      paper: "https://arxiv.org/pdf/2401.02013",
+    },
+    // Add other publications here
+  ];
 
-I am currently an Applied Research Scientist at AWS, Amazon, working on Generative AI.
+  return (
+    <div className="max-w-6xl mx-auto p-6">
+      {/* Header Enhancement */}
+      <div className="text-center mb-8">
+        <h1 className="text-4xl font-bold mb-4">Jing Wu</h1>
+        <p className="text-xl text-gray-600 mb-4">Applied Research Scientist @ AWS, Amazon</p>
+        <div className="flex justify-center gap-4 mb-6">
+          <a href="mailto:your.email@example.com" className="inline-flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+            <Mail size={18} />
+            Contact
+          </a>
+          <a href="https://github.com/yourusername" className="inline-flex items-center gap-2 px-4 py-2 border border-gray-300 rounded hover:bg-gray-50">
+            <Github size={18} />
+            GitHub
+          </a>
+          <a href="https://linkedin.com/in/yourusername" className="inline-flex items-center gap-2 px-4 py-2 border border-gray-300 rounded hover:bg-gray-50">
+            <Linkedin size={18} />
+            LinkedIn
+          </a>
+        </div>
+        <div className="bg-blue-50 p-4 rounded-lg inline-block">
+          <p className="text-blue-800">⭐ Open to opportunities and collaborations ⭐</p>
+        </div>
+      </div>
 
-I got my **Ph.D.** from [**University of Illinois at Urbana-Champaign**](https://illinois.edu/), guided by [**Prof. Naira Hovakimyan**](https://naira.mechse.illinois.edu/sciencex_teams/naira-hovakimyan/). I've also been a research scientist in machine learning at [**Intelinair**](https://www.intelinair.com/), mentored by [**Jennifer Hobbs**](https://scholar.google.com/citations?user=zeWhseAAAAAJ&hl=en). Additionally, I interned as an applied research scientist at [**Amazon**](https://www.amazon.jobs/en/teams/buyer-risk-prevention).
+      {/* Research Interests Enhancement */}
+      <div className="mb-8">
+        <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
+          <Book className="text-blue-600" size={24} />
+          Research Interests
+        </h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="font-semibold mb-2">Core Research Areas</h3>
+            <ul className="space-y-2">
+              <li className="flex items-center gap-2">
+                <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
+                Large Language Models (LLM)
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
+                Computer Vision
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="w-2 h-2 bg-blue-600 rounded-full"></span>
+                Multi-modality Learning
+              </li>
+            </ul>
+          </div>
+          <div className="bg-gray-50 p-6 rounded-lg">
+            <h3 className="font-semibold mb-2">Application Domains</h3>
+            <ul className="space-y-2">
+              <li className="flex items-center gap-2">
+                <span className="w-2 h-2 bg-green-600 rounded-full"></span>
+                Remote Sensing
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="w-2 h-2 bg-green-600 rounded-full"></span>
+                Robotics
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="w-2 h-2 bg-green-600 rounded-full"></span>
+                Sustainable Agriculture
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
-## 🔍 **Research Interests**
+      {/* Enhanced News Section */}
+      <div className="news-container mb-8">
+        <h2 className="text-2xl font-bold mb-4">📰 News & Updates</h2>
+        <div className="news-updates bg-white border border-gray-200 rounded-lg">
+          <div className="p-4 space-y-4">
+            {/* Existing news items with enhanced styling */}
+            <div className="border-l-4 border-blue-600 pl-4">
+              <div className="text-sm text-gray-500">January 2025</div>
+              <div className="font-semibold">Paper Accepted at AAAI</div>
+              <div className="text-gray-600">Improving Model Probability Calibration by Integration of Large Data Sources with Biased Labels</div>
+            </div>
+            {/* Add more news items with the same styling */}
+          </div>
+        </div>
+      </div>
 
-My research is primarily in the fields of **LLM**, **computer vision** and **multi-modality learning**. In particular, I'm interested in exploring **improved representation learning** techniques to aid machines in comprehending the structure of massive amounts of unlabeled data.
+      {/* Enhanced Publications Section */}
+      <div className="mb-8">
+        <h2 className="text-2xl font-bold mb-4">📑 Selected Publications</h2>
+        <div className="bg-gray-50 p-6 rounded-lg">
+          <div className="publication-grid grid md:grid-cols-3 gap-6">
+            {publications.map((pub, index) => (
+              <div 
+                key={index}
+                className="publication-card border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
+              >
+                <img 
+                  src={pub.image} 
+                  alt={pub.title}
+                  className="w-full h-48 object-cover"
+                />
+                <div className="p-4">
+                  <h3 className="font-semibold text-lg mb-2">{pub.title}</h3>
+                  <p className="text-gray-600 text-sm mb-2">{pub.authors}</p>
+                  <p className="text-blue-600 text-sm mb-4">{pub.venue}</p>
+                  <a 
+                    href={pub.paper}
+                    className="text-blue-600 hover:underline text-sm"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Read the paper →
+                  </a>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
 
-In industry applications, my efforts are devoted to **remote sensing**, **robotics** and **sustainable agriculture**. My philosophy towards research is centered around bringing people's lives and AI technology together at scale. 
+      <style jsx global>{`
+        .news-updates {
+          max-height: 400px;
+          overflow-y: auto;
+        }
+        
+        .publication-card {
+          background: white;
+          transition: transform 0.2s;
+        }
+        
+        .publication-card:hover {
+          transform: translateY(-4px);
+        }
+      `}</style>
+    </div>
+  );
+};
 
-
-
-<!-- Scrollable News Section -->
-<div class="news-container">
-  <h2>📰 News & Updates</h2>
-  <div class="news-updates">
-    <ul>
-      <li><strong>Jan 2025</strong>: Our paper, "Improving Model Probability Calibration by Integration of Large Data Sources with Biased Labels" has been accepted at <strong>AAAI</strong>.</li>
-      <li><strong>May 2024</strong>: I am pleased to announce the successful defense of my Ph.D. thesis.</li>
-      <li><strong>April 2024</strong>:
-        <ul>
-          <li>Our paper, "The new agronomists: Language models are experts in crop management" has been accepted at <strong>CVPR in AgVision</strong>.</li>
-          <li>Our paper, "Residual-based Language Models are Free Boosters for Biomedical Imaging" has been accepted at <strong>CVPR in AI-MIA</strong> as <strong>oral</strong> presentation.</li>
-        </ul>
-      </li>
-      <li><strong>Jan 2024</strong>: Our paper, "SwitchTab: Switched Autoencoders Are Effective Tabular Learners" has been accepted at <strong>AAAI</strong>.</li>
-      <li><strong>Oct 2023</strong>: Our work on "ReConTab: Regularized Contrastive Representation Learning for Tabular Data" has been accepted at <strong>NeurIPS</strong> workshop.</li>
-      <li><strong>September 2023</strong>: Our paper titled "Balanced Training for Sparse GANs" has been accepted at <strong>NeurIPS</strong>.</li>
-      <li><strong>July 2023</strong>: 
-        <ul>
-          <li>Our paper, "Hallucination Improves the Performance of Contrastive Learning," got accepted at <strong>ICCV</strong>. <a href="https://arxiv.org/pdf/2307.12168.pdf">Read the paper here</a>.</li>
-          <li>Our work "GenCo: An Auxiliary Generator from Contrastive Learning for Enhanced Few-Shot Learning in Remote Sensing" received the <strong>spotlight</strong> at <strong>ECAI</strong>. <a href="https://arxiv.org/pdf/2307.14612.pdf">Read the paper here</a>.</li>
-        </ul>
-      </li>
-      <li><strong>May 2023</strong>: I'm joining <strong>Amazon</strong> as an Intern Applied Research Scientist.</li>
-      <li><strong>April 2023</strong>: 
-        <ul>
-          <li>Our research on "Optimizing Crop Management with Reinforcement Learning and Imitation Learning" has been accepted at <strong>IJCAI</strong>. <a href="https://arxiv.org/pdf/2209.09991.pdf">Read the paper here</a>.</li>
-        </ul>
-      </li>
-      <li><strong>March 2023</strong>: 
-        <ul>
-          <li>New paper on <strong>Arxiv</strong> titled "Dynamic Sparse Training for GANs". <a href="https://arxiv.org/pdf/2302.14670.pdf">Read the paper here</a>.</li>
-          <li>Our work "Extended Agriculture-Vision: An Extension of a Large Aerial Image Dataset for Agricultural Pattern Analysis" got accepted at <strong>TMLR</strong>. <a href="https://arxiv.org/pdf/2303.02460.pdf">Read the paper here</a>.</li>
-        </ul>
-      </li>
-      <li><strong>June 2022</strong>: Presented our research at <strong>CVPR</strong> in New Orleans.</li>
-      <li><strong>May 2022</strong>: 
-        <ul>
-          <li>Our paper, "Optimizing Nitrogen Management with Deep Reinforcement Learning and Crop Simulations", was accepted for an <strong>oral</strong> presentation at <strong>CVPR in AgVision</strong>. <a href="https://arxiv.org/pdf/2204.10394.pdf">Read the paper here</a>.</li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-</div>
-
-<!-- CSS to make the news section scrollable and align with previous titles -->
-<style>
-  .news-container {
-    margin: 20px auto;
-    width: 100%; /* Align width with previous titles */
-    max-width: 800px; /* Adjust width to make it wider */
-  }
-
-  .news-updates {
-    height: 250px; /* Adjust height for more content */
-    overflow-y: scroll; /* Enable vertical scrolling */
-    padding: 10px;
-    border: 1px solid #ddd;
-    background-color: #f9f9f9;
-  }
-
-  .news-updates ul {
-    list-style-type: none;
-    padding: 0;
-  }
-
-  .news-updates li {
-    margin-bottom: 15px;
-  }
-
-  .news-updates li ul {
-    margin-top: 5px;
-  }
-
-  .news-updates a {
-    color: #0066cc;
-    text-decoration: none;
-  }
-
-  .news-updates a:hover {
-    text-decoration: underline;
-  }
-</style>
-
-
-
-
-
-## 📑 **Selected Publications**
-
-<div class="carousel">
-  <div class="slides">
-    <figure>
-      <img src="images/Switch.png" alt="SwitchTab: Switched Autoencoders Are Effective Tabular Learners">
-      <figcaption>
-        <strong>SwitchTab: Switched Autoencoders Are Effective Tabular Learners</strong><br>
-        <em>Authors: <b>Jing Wu</b>*, Suiyao Chen*, Qi Zhao,
-Renat Sergazinov, Chen Li, Shengjie Liu, Chongchao Zhao, Tianpei Xie, Hanqing Guo, Cheng Ji,
-Daniel Cociorva, Hakan Brunzell</em><br>
-        <em>AAAI 2024 </em><br>
-        <a href="https://arxiv.org/pdf/2401.02013" target="_blank">Read the paper</a>  
-<!--         <a href="[Code Link]" target="_blank">Code</a> -->
-      </figcaption>
-    </figure>
-    <figure>
-      <img src="images/LLM_AG.png" alt="The New Agronomists: Language Models are Experts in Crop Management">
-      <figcaption>
-        <strong>The New Agronomists: Language Models are Experts in Crop Management</strong><br>
-        <em>Authors: <b>Jing Wu</b>, Zhixin Lai, Suiyao Chen, Ran Tao, Pan Zhao, Naira Hovakimyan </em><br>
-        <em>CVPRW 2024 </em><br>
-        <a href="https://openaccess.thecvf.com/content/CVPR2024W/Vision4Ag/papers/Wu_The_New_Agronomists_Language_Models_are_Experts_in_Crop_Management_CVPRW_2024_paper.pdf" target="_blank">Read the paper</a> | 
-        <a href="https://github.com/jingwu6/LM_AG" target="_blank">Code</a>
-      </figcaption>
-    </figure>
-    <figure>
-      <img src="images/residual.png" alt="Residual-based Language Models are Free Boosters for Biomedical Imaging Tasks">
-      <figcaption>
-        <strong>Residual-based Language Models are Free Boosters for Biomedical Imaging Tasks</strong><br>
-        <em>Authors: Zhixin Lai*, <b>Jing Wu</b>*, Suiyao Chen, Yucheng Zhou, Naira Hovakimyan </em><br>
-        <em>CVPRW 2024 <span style="color: red;">Oral</span>
-</em><br>
-        <a href="https://openaccess.thecvf.com/content/CVPR2024W/DEF-AI-MIA/papers/Lai_Residual-based_Language_Models_are_Free_Boosters_for_Biomedical_Imaging_Tasks_CVPRW_2024_paper.pdf" target="_blank">Read the paper</a> | 
-        <a href="https://github.com/ZhixinLai/LLMBoostMedical" target="_blank">Code</a>
-      </figcaption>
-    </figure>
-    <figure>
-      <img src="images/sparsegan.png" alt="Balanced Training for Sparse GANs">
-      <figcaption>
-        <strong>Balanced Training for Sparse GANs</strong><br>
-        <em>Authors: Yite Wang*, <b>Jing Wu</b>*, Naira Hovakimyan, Ruoyu Sun </em><br>
-        <em>NeurIPS 2023 </em><br>
-        <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/2c28efa5a86dca4b603a36c08f49f240-Paper-Conference.pdf" target="_blank">Read the paper</a> | 
-        <a href="https://github.com/YiteWang/ADAPT" target="_blank">Code</a>
-      </figcaption>
-    </figure>
-    <figure>
-      <img src="images/ExtendedAG.png" alt="Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis">
-      <figcaption>
-        <strong>Extended Agriculture-Vision Dataset for Agricultural Pattern Analysis</strong><br>
-        <em>Authors:  <b>Jing Wu</b>, David Pichler, Daniel Marley, David Wilson, Naira Hovakimyan, Jennifer Hobbs </em><br>
-        <em>TMLR 2023 </em><br>
-        <a href="https://arxiv.org/pdf/2303.02460" target="_blank">Read the paper</a> | 
-        <a href="https://github.com/jingwu6/Extended-Agriculture-Vision-Dataset" target="_blank">Data</a>
-      </figcaption>
-    </figure>
-    <figure>
-      <img src="images/Hallucination.png" alt="Hallucination Improves Performance in Contrastive Learning">
-      <figcaption>
-        <strong>Hallucination Improves Performance in Contrastive Learning</strong><br>
-        <em>Authors:  <b>Jing Wu</b>, Jennifer Hobbs, Naira Hovakimyan</em><br>
-        <em>ICCV 2023 </em><br>
-        <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Wu_Hallucination_Improves_the_Performance_of_Unsupervised_Visual_Representation_Learning_ICCV_2023_paper.pdf" target="_blank">Read the paper</a> | 
-        <a href="https://github.com/jingwu6/Hallucination-improves-the-performance-of-unsupervised-visual-representation-learning" target="_blank">Code</a>
-      </figcaption>
-    </figure>
-  </div>
-  <button class="carousel-btn prev-btn" onclick="moveSlides(-1)">&#10094;</button>
-  <button class="carousel-btn next-btn" onclick="moveSlides(1)">&#10095;</button>
-</div>
-
-<script>
-  let currentSlide = 0;
-  const slides = document.querySelector('.slides');
-  const totalSlides = slides.children.length;
-
-  function moveSlides(n) {
-    currentSlide = (currentSlide + n + totalSlides) % totalSlides;
-    slides.style.transform = `translateX(-${currentSlide * 100}%)`;
-  }
-</script>
-
-<style>
-  .carousel {
-    width: 100%;
-    max-width: 800px;
-    margin: 20px auto;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .carousel img {
-    width: 100%;
-    max-height: 350px;
-    object-fit: contain;
-    display: block;
-  }
-
-  .slides {
-    display: flex;
-    transition: transform 0.5s ease-in-out;
-    width: 100%;
-  }
-
-  figure {
-    min-width: 100%;
-    text-align: center;
-    padding: 10px 0;
-  }
-
-  figcaption {
-    font-size: 1em;
-    color: #333;
-    text-align: center;
-  }
-
-  .carousel-btn {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-  }
-
-  .prev-btn {
-    left: 10px;
-  }
-
-  .next-btn {
-    right: 10px;
-  }
-</style>
-
+export default EnhancedWebsite;
